@@ -1,0 +1,9 @@
+@font-face {
+    font-family: 'Kosko';
+    src: local('Kosko Regular'), local('Kosko-Regular'),
+        url('KoskoRegular-Regular.woff2') format('woff2'),
+        url('KoskoRegular-Regular.woff') format('woff'),
+        url('KoskoRegular-Regular.ttf') format('truetype');
+    font-weight: 400;
+    font-style: normal;
+  }
