@@ -61,7 +61,6 @@ body {
   font-family: "Russo One", sans-serif;
   font-style: normal;
   font-weight: 400;
-  line-height: 113%;
   text-transform: uppercase;
   font-size: 20px;
 }
@@ -76,13 +75,12 @@ body {
   font-family: "Russo One", sans-serif;
   font-style: normal;
   font-weight: 400;
-  line-height: 113%;
   text-transform: uppercase;
   font-size: 50px;
 }
 @media screen and (max-width: 430px) {
   .lesson__title, .tariff__option-payment .tariff__button-text, .tariff__option-payment .tariff__price-wrapper .tariff__price-sum, .tariff__option-title, .tariff__image-title .tariff__image-text, .header__title-second {
-    font-size: 28px;
+    font-size: 31px;
   }
 }
 
@@ -91,7 +89,6 @@ body {
   font-family: "Russo One", sans-serif;
   font-style: normal;
   font-weight: 400;
-  line-height: 113%;
   text-transform: uppercase;
   font-size: 12px;
   line-height: 123%;
@@ -114,11 +111,12 @@ body {
 }
 @media screen and (max-width: 430px) {
   .lesson__text, .tariff__terms-item, .tariff__option-terms .tariff__list-item, .methods__list-item, .methods__header-content .methods__header-text, .program__content-list, .about__content-text, .result__list-item, .greeting__content-text {
-    font-size: 11px;
+    font-size: 13.5px;
+    letter-spacing: 0.4px;
   }
 }
 
-.terms__item-text {
+.footer .footer__note, .lesson .payment__note, .terms__item-text {
   color: #000;
   font-family: "Museo Sans Cyrl", sans-serif;
   font-style: normal;
@@ -128,7 +126,7 @@ body {
   font-size: 20px;
 }
 @media screen and (max-width: 430px) {
-  .terms__item-text {
+  .footer .footer__note, .lesson .payment__note, .terms__item-text {
     font-size: 9px;
   }
 }
@@ -144,7 +142,7 @@ body {
 }
 @media screen and (max-width: 430px) {
   .footer__contacts-title, .footer__profiles-title, .methods__header-content .methods__header-title, .program__content-title, .result__title, .greeting__content-title {
-    font-size: 15px;
+    font-size: 14px;
   }
 }
 
@@ -158,6 +156,11 @@ body {
 li {
   list-style: none;
   list-style-image: url("../images/main/dot.png");
+}
+@media screen and (max-width: 899px) {
+  li {
+    list-style-image: url("../images/main/dot_small.png");
+  }
 }
 
 a {
@@ -309,7 +312,7 @@ a {
   justify-content: center;
 }
 .image-steampunk__img {
-  height: 100%;
+  width: 100%;
 }
 
 .result {
@@ -332,19 +335,20 @@ a {
 }
 
 .quote {
-  height: 1.13%;
+  height: 1.5%;
   width: 95.43%;
   display: flex;
   justify-content: center;
   align-items: center;
   background-image: url(../images/main/frame.png);
   background-repeat: no-repeat;
-  background-size: 91%;
+  background-size: 98%;
   background-position: center;
+  padding-top: 2%;
 }
 @media screen and (max-width: 430px) {
   .quote {
-    background-size: 82%;
+    background-size: 91%;
   }
 }
 .quote__text {
@@ -375,7 +379,7 @@ a {
 }
 .about__image {
   border: 1px solid rgb(58, 218, 55);
-  height: 37%;
+  height: 41.7%;
   width: 100%;
   display: flex;
   justify-content: space-between;
@@ -395,16 +399,21 @@ a {
 }
 @media screen and (max-width: 430px) {
   .about__image-alone {
-    border-radius: 30px;
+    border-radius: 27px;
   }
 }
 .about__image-alone .inscription__container {
-  width: 70%;
-  height: 25%;
+  width: 77%;
+  height: 19%;
   display: flex;
   flex-direction: column;
-  border-radius: 0px 65px 0px 0px;
+  border-radius: 0px 30px 0px 0px;
   background: #fff;
+}
+@media screen and (max-width: 430px) {
+  .about__image-alone .inscription__container {
+    border-radius: 0px 20px 0px 0px;
+  }
 }
 .about__image-alone .inscription__container .inscription__title {
   align-self: flex-start;
@@ -445,10 +454,12 @@ a {
   height: 55%;
   display: flex;
   justify-content: space-between;
+  padding-top: 9%;
 }
 @media screen and (max-width: 430px) {
   .about__content {
     height: 57%;
+    font-size: 11px;
   }
 }
 .about__content-text {
@@ -520,7 +531,7 @@ a {
   justify-content: space-between;
 }
 .questions {
-  border: 1px solid rgb(245, 241, 7);
+  border: 1px solid rgb(245, 7, 114);
   height: 2.5%;
   width: 95.43%;
   display: flex;
@@ -545,9 +556,6 @@ a {
   color: #000;
   font-family: "Kosko Regular", sans-serif;
   font-size: 20px;
-  font-style: normal;
-  font-weight: 400;
-  line-height: 117%;
   letter-spacing: 0.96px;
   text-align: center;
 }
@@ -592,10 +600,6 @@ a {
   color: #000;
   font-family: "Kosko Regular", sans-serif;
   font-size: 20px;
-  font-style: normal;
-  font-weight: 400;
-  line-height: 117%;
-  letter-spacing: 0.96px;
   text-align: center;
 }
 @media screen and (max-width: 430px) {
@@ -618,7 +622,12 @@ a {
   align-items: center;
 }
 .video-first__title {
-  font-size: 100%;
+  font-size: 18px;
+}
+@media screen and (max-width: 899px) {
+  .video-first__title {
+    font-size: 9px;
+  }
 }
 .video-first__content {
   width: 100%;
@@ -638,7 +647,7 @@ a {
   justify-content: center;
 }
 .image-bears .image__img {
-  height: 100%;
+  width: 100%;
 }
 
 .program {
@@ -660,11 +669,22 @@ a {
 .program__content-title {
   margin-left: -13%;
 }
+@media screen and (max-width: 899px) {
+  .program__content-title {
+    margin-left: 0%;
+    font-size: 13px;
+  }
+}
 .program__content-list {
   height: 80%;
   display: flex;
   flex-direction: column;
   justify-content: space-around;
+}
+@media screen and (max-width: 899px) {
+  .program__content-list {
+    padding-left: 5%;
+  }
 }
 .program__content-list .program__content-item span {
   color: #fc95c2;
@@ -680,7 +700,7 @@ a {
 
 .gallery-students {
   border: 1px solid rgb(103, 224, 103);
-  height: 10.42%;
+  height: 10.3%;
   width: 100%;
   display: flex;
   justify-content: space-between;
@@ -714,14 +734,14 @@ a {
   font-size: 80%;
   text-align: center;
 }
+@media screen and (max-width: 430px) {
+  .gallery-students__second_column .gallery-students__text .gallery-students__txt {
+    font-size: 49%;
+  }
+}
 .gallery-students__second_column .gallery-students__text .gallery-students__txt a {
   color: #fc95c2;
   font-size: 120%;
-}
-@media screen and (max-width: 430px) {
-  .gallery-students__second_column .gallery-students__text .gallery-students__txt a {
-    font-size: 70%;
-  }
 }
 .gallery-students__third_column {
   width: 28.58%;
@@ -736,7 +756,7 @@ a {
   width: 95.43%;
   display: flex;
   flex-direction: column;
-  justify-content: space-around;
+  justify-content: space-between;
 }
 .methods__header {
   height: 43.9%;
@@ -760,7 +780,7 @@ a {
 }
 .methods__list {
   width: 100%;
-  padding-left: 4%;
+  padding-left: 7%;
 }
 .methods__list-item {
   margin-bottom: 3%;
@@ -836,8 +856,11 @@ a {
   flex-direction: column;
   justify-content: space-around;
 }
+.tariff__option .first-option-payment {
+  height: 60%;
+}
 .tariff__option-payment {
-  height: 40%;
+  height: 35%;
   width: 70%;
   display: flex;
   flex-direction: column;
@@ -852,7 +875,7 @@ a {
   align-items: center;
 }
 .tariff__option-payment .tariff__price-emoji-fire-one {
-  width: 15%;
+  width: 12.5%;
   align-self: flex-end;
   transform: rotate(68.81deg);
 }
@@ -875,14 +898,19 @@ a {
   border: 1px solid red;
   height: 45%;
   width: 75%;
+  display: flex;
+  justify-content: flex-start;
 }
 .tariff__option-payment .tariff__price-emoji-fire-two {
-  width: 23%;
-  margin-right: 20%;
-  margin-bottom: -20%;
+  width: 17%;
+  align-self: flex-end;
+  margin-right: 28%;
+  margin-bottom: -10%;
 }
 .tariff__option-payment .tariff__price-emoji-finger {
+  width: 9%;
   padding-top: 10%;
+  align-self: center;
 }
 .tariff__option-payment .tariff__button {
   height: 15%;
@@ -893,9 +921,19 @@ a {
   border-radius: 20px;
   background: rgb(223, 140, 176);
 }
+@media screen and (max-width: 430px) {
+  .tariff__option-payment .tariff__button {
+    border-radius: 10px;
+  }
+}
 .tariff__option-payment .tariff__button-text {
   color: rgb(255, 255, 255);
-  font-size: 240%;
+  font-size: 40px;
+}
+@media screen and (max-width: 430px) {
+  .tariff__option-payment .tariff__button-text {
+    font-size: 20px;
+  }
 }
 .tariff__terms {
   flex-grow: 0.4;
@@ -924,11 +962,20 @@ a {
   height: 100%;
   width: 100%;
 }
+.lesson .payment__note {
+  text-align: start;
+  font-size: 15px;
+}
+@media screen and (max-width: 430px) {
+  .lesson .payment__note {
+    font-size: 7.5px;
+  }
+}
 
 .footer {
   border: 1px solid rgb(161, 82, 13);
   width: 95.43%;
-  height: 2%;
+  height: 2.1%;
   display: flex;
   flex-direction: column;
   justify-content: space-around;
@@ -943,7 +990,12 @@ a {
   align-items: center;
 }
 .footer__profiles-title {
-  font-size: 100%;
+  font-size: 15px;
+}
+@media screen and (max-width: 430px) {
+  .footer__profiles-title {
+    font-size: 8px;
+  }
 }
 .footer__profiles-icons {
   width: 100%;
@@ -959,7 +1011,13 @@ a {
   align-items: center;
 }
 .footer__contacts-title {
-  font-size: 100%;
+  font-size: 15px;
+  text-align: center;
+}
+@media screen and (max-width: 430px) {
+  .footer__contacts-title {
+    font-size: 8px;
+  }
 }
 .footer__contacts-icons {
   width: 100%;
@@ -969,6 +1027,17 @@ a {
 .footer .footer__profiles-icon {
   max-width: 50px;
 }
+@media screen and (max-width: 430px) {
+  .footer .footer__profiles-icon {
+    max-width: 32px;
+  }
+}
 .footer .footer__note {
   align-self: flex-start;
+  font-size: 15px;
+}
+@media screen and (max-width: 430px) {
+  .footer .footer__note {
+    font-size: 7.5px;
+  }
 }/*# sourceMappingURL=index.css.map */

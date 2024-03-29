@@ -79,7 +79,7 @@ $main-with: 95.43%;
   font-family: $font-title;
   font-style: normal;
   font-weight: 400;
-  line-height: 113%;
+  //line-height: 113%;
   text-transform: uppercase;
 }
 
@@ -95,7 +95,7 @@ $main-with: 95.43%;
   @include title-pink-text;
   font-size: 50px;
   @media screen and (max-width: 430px) {
-    font-size: 28px;
+    font-size: 31px;
   }
 }
 
@@ -122,7 +122,8 @@ $main-with: 95.43%;
   @include black-text;
   font-size: 25px;
   @media screen and (max-width: 430px) {
-    font-size: 11px;
+    font-size: 13.5px;
+    letter-spacing: 0.4px;
   }
 }
 
@@ -143,7 +144,7 @@ $main-with: 95.43%;
   letter-spacing: 3%;
   text-align: left;
   @media screen and (max-width: 430px) {
-    font-size: 15px;
+    font-size: 14px;
   }
 }
 
@@ -165,6 +166,9 @@ $main-with: 95.43%;
 li {
   list-style: none;
   list-style-image: url("../images/main/dot.png");
+  @media screen and (max-width: 899px) {
+    list-style-image: url("../images/main/dot_small.png");
+  }
 }
 a {
   //text-decoration: none;

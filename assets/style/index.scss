@@ -163,7 +163,8 @@
   justify-content: center;
 
   &__img {
-    height: 100%;
+    //height: 100%;
+    width: 100%;
   }
 }
 
@@ -192,17 +193,18 @@
 }
 
 .quote {
-  height: 1.13%;
+  height: 1.5%;
   width: $main-with;
   display: flex;
   justify-content: center;
   align-items: center;
   background-image: url(../images/main/frame.png);
   background-repeat: no-repeat;
-  background-size: 91%;
+  background-size: 98%;
   background-position: center;
+  padding-top: 2%;
   @media screen and (max-width: 430px) {
-    background-size: 82%;
+    background-size: 91%;
   }
 
   &__text {
@@ -234,7 +236,7 @@
 
   &__image {
     border: 1px solid rgb(58, 218, 55);
-    height: 37%;
+    height: 41.7%;
     width: 100%;
     display: flex;
     justify-content: space-between;
@@ -253,18 +255,21 @@
       border-radius: 68px;
 
       @media screen and (max-width: 430px) {
-        border-radius: 30px;
+        border-radius: 27px;
       }
 
       .inscription__container {
-        width: 70%;
-        height: 25%;
+        width: 77%;
+        height: 19%;
         display: flex;
         flex-direction: column;
-        border-radius: 0px 65px 0px 0px;
+        border-radius: 0px 30px 0px 0px;
         background: #fff;
         //   margin-left: -1px;
         // margin-bottom: -1px;
+        @media screen and (max-width: 430px) {
+          border-radius: 0px 20px 0px 0px;
+        }
 
         .inscription__title {
           @extend %quote-text;
@@ -311,9 +316,11 @@
     height: 55%;
     display: flex;
     justify-content: space-between;
+    padding-top: 9%;
 
     @media screen and (max-width: 430px) {
       height: 57%;
+      font-size: 11px;
     }
 
     &-text {
@@ -434,7 +441,7 @@
 }
 
 .questions {
-  border: 1px solid rgb(245, 241, 7);
+  border: 1px solid rgb(245, 7, 114);
   height: 2.5%;
   width: $main-with;
   display: flex;
@@ -459,9 +466,9 @@
         color: $color-main;
         font-family: $font-inscription;
         font-size: 20px;
-        font-style: normal;
-        font-weight: 400;
-        line-height: 117%;
+        // font-style: normal;
+        // font-weight: 400;
+        // line-height: 117%;
         letter-spacing: 0.96px;
         text-align: center;
 
@@ -513,10 +520,10 @@
         color: $color-main;
         font-family: $font-inscription;
         font-size: 20px;
-        font-style: normal;
-        font-weight: 400;
-        line-height: 117%;
-        letter-spacing: 0.96px;
+        // font-style: normal;
+        // font-weight: 400;
+        // line-height: 117%;
+        // letter-spacing: 0.96px;
         text-align: center;
 
         @media screen and (max-width: 430px) {
@@ -544,7 +551,10 @@
 
   &__title {
     @extend %title-pink-small;
-    font-size: 100%;
+    font-size: 18px;
+    @media screen and (max-width: 899px) {
+      font-size: 9px;
+    }
   }
 
   &__content {
@@ -567,7 +577,8 @@
   justify-content: center;
 
   .image__img {
-    height: 100%;
+    //height: 100%;
+    width: 100%;
   }
 }
 
@@ -589,7 +600,12 @@
 
     &-title {
       @extend %title-text;
+
       margin-left: -13%;
+      @media screen and (max-width: 899px) {
+        margin-left: 0%;
+        font-size: 13px;
+      }
     }
 
     &-list {
@@ -598,6 +614,9 @@
       display: flex;
       flex-direction: column;
       justify-content: space-around;
+      @media screen and (max-width: 899px) {
+        padding-left: 5%;
+      }
 
       .program__content-item {
         span {
@@ -620,7 +639,7 @@
 
 .gallery-students {
   border: 1px solid rgb(103, 224, 103);
-  height: 10.42%;
+  height: 10.3%;
   width: 100%;
   display: flex;
   justify-content: space-between;
@@ -669,13 +688,16 @@
         justify-content: center;
         @extend %title-pink-small;
         font-size: 80%;
+        @media screen and (max-width: 430px) {
+          font-size: 49%;
+        }
         text-align: center;
         a {
           color: $color-title;
           font-size: 120%;
-          @media screen and (max-width: 430px) {
-            font-size: 70%;
-          }
+          // @media screen and (max-width: 430px) {
+          //   //font-size: 90%;
+          // }
         }
       }
     }
@@ -708,7 +730,7 @@
   width: $main-with;
   display: flex;
   flex-direction: column;
-  justify-content: space-around;
+  justify-content: space-between;
 
   &__header {
     height: 43.9%;
@@ -744,7 +766,7 @@
 
   &__list {
     width: 100%;
-    padding-left: 4%;
+    padding-left: 7%;
 
     &-item {
       @extend %main-text;
@@ -830,9 +852,11 @@
         }
       }
     }
-
+    .first-option-payment {
+      height: 60%;
+    }
     &-payment {
-      height: 40%;
+      height: 35%;
       width: 70%;
       display: flex;
       flex-direction: column;
@@ -847,7 +871,7 @@
         align-items: center;
 
         &-emoji-fire-one {
-          width: 15%;
+          width: 12.5%;
           align-self: flex-end;
           transform: rotate(68.81deg);
         }
@@ -874,15 +898,21 @@
           border: 1px solid red;
           height: 45%;
           width: 75%;
+          display: flex;
+          justify-content: flex-start;
 
           &-fire-two {
-            width: 23%;
-            margin-right: 20%;
-            margin-bottom: -20%;
+            width: 17%;
+            align-self: flex-end;
+            margin-right: 28%;
+            // margin-right: 20%;
+            margin-bottom: -10%;
           }
 
           &-finger {
+            width: 9%;
             padding-top: 10%;
+            align-self: center;
           }
         }
       }
@@ -896,11 +926,18 @@
         border-radius: 20px;
 
         background: rgb(223, 140, 176);
+        @media screen and (max-width: 430px) {
+          border-radius: 10px;
+        }
 
         &-text {
           @extend %title-pink-big;
           color: rgb(255, 255, 255);
-          font-size: 240%;
+          font-size: 40px;
+
+          @media screen and (max-width: 430px) {
+            font-size: 20px;
+          }
         }
       }
     }
@@ -953,12 +990,20 @@
       width: 100%;
     }
   }
+  .payment__note {
+    @extend %main-text-small;
+    text-align: start;
+    font-size: 15px;
+    @media screen and (max-width: 430px) {
+      font-size: 7.5px;
+    }
+  }
 }
 
 .footer {
   border: 1px solid rgb(161, 82, 13);
   width: $main-with;
-  height: 2%;
+  height: 2.1%;
   display: flex;
   flex-direction: column;
   justify-content: space-around;
@@ -974,7 +1019,10 @@
 
     &-title {
       @extend %title-text;
-      font-size: 100%;
+      font-size: 15px;
+      @media screen and (max-width: 430px) {
+        font-size: 8px;
+      }
     }
 
     &-icons {
@@ -994,7 +1042,11 @@
 
     &-title {
       @extend %title-text;
-      font-size: 100%;
+      font-size: 15px;
+      text-align: center;
+      @media screen and (max-width: 430px) {
+        font-size: 8px;
+      }
     }
 
     &-icons {
@@ -1006,8 +1058,16 @@
 
   .footer__profiles-icon {
     max-width: 50px;
+    @media screen and (max-width: 430px) {
+      max-width: 32px;
+    }
   }
   .footer__note {
+    @extend %main-text-small;
     align-self: flex-start;
+    font-size: 15px;
+    @media screen and (max-width: 430px) {
+      font-size: 7.5px;
+    }
   }
 }
