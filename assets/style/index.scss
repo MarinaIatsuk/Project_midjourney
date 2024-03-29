@@ -434,7 +434,7 @@
 }
 
 .questions {
-  border: 1px solid rgb(49, 88, 118);
+  border: 1px solid rgb(218, 105, 13);
   height: 2.5%;
   width: $main-with;
   display: flex;
@@ -444,7 +444,7 @@
   &__first {
     height: 50%;
     display: flex;
-    justify-content: flex-end;
+    //justify-content: flex-end;
     align-items: center;
 
     &-content {
@@ -488,7 +488,7 @@
   &__second {
     height: 50%;
     display: flex;
-    justify-content: flex-start;
+    //justify-content: flex-start;
     align-items: center;
 
     &-image {
