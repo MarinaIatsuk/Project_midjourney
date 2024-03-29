@@ -97,6 +97,9 @@ $main-with: 95.43%;
   @media screen and (max-width: 430px) {
     font-size: 31px;
   }
+  @media screen and (max-width: 393px) {
+    font-size: 28px;
+  }
 }
 
 %title-pink-small {
@@ -105,7 +108,7 @@ $main-with: 95.43%;
   line-height: 123%;
   letter-spacing: 3%;
   @media screen and (max-width: 430px) {
-    font-size: 5px;
+    font-size: 5.7px;
   }
 }
 
@@ -124,6 +127,9 @@ $main-with: 95.43%;
   @media screen and (max-width: 430px) {
     font-size: 13.5px;
     letter-spacing: 0.4px;
+  }
+  @media screen and (max-width: 393px) {
+    font-size: 12.5px;
   }
 }
 

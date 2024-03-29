@@ -83,6 +83,11 @@ body {
     font-size: 31px;
   }
 }
+@media screen and (max-width: 393px) {
+  .lesson__title, .tariff__option-payment .tariff__button-text, .tariff__option-payment .tariff__price-wrapper .tariff__price-sum, .tariff__option-title, .tariff__image-title .tariff__image-text, .header__title-second {
+    font-size: 28px;
+  }
+}
 
 .gallery-students__second_column .gallery-students__text .gallery-students__txt, .video-first__title, .gallery__second_column .gallery__text .gallery__txt, .about__image-alone .inscription__container .inscription__text {
   color: #fc95c2;
@@ -96,7 +101,7 @@ body {
 }
 @media screen and (max-width: 430px) {
   .gallery-students__second_column .gallery-students__text .gallery-students__txt, .video-first__title, .gallery__second_column .gallery__text .gallery__txt, .about__image-alone .inscription__container .inscription__text {
-    font-size: 5px;
+    font-size: 5.7px;
   }
 }
 
@@ -113,6 +118,11 @@ body {
   .lesson__text, .tariff__terms-item, .tariff__option-terms .tariff__list-item, .methods__list-item, .methods__header-content .methods__header-text, .program__content-list, .about__content-text, .result__list-item, .greeting__content-text {
     font-size: 13.5px;
     letter-spacing: 0.4px;
+  }
+}
+@media screen and (max-width: 393px) {
+  .lesson__text, .tariff__terms-item, .tariff__option-terms .tariff__list-item, .methods__list-item, .methods__header-content .methods__header-text, .program__content-list, .about__content-text, .result__list-item, .greeting__content-text {
+    font-size: 12.5px;
   }
 }
 
@@ -257,6 +267,11 @@ a {
   display: flex;
   justify-content: space-between;
 }
+@media screen and (max-width: 393px) {
+  .greeting {
+    height: 2.64%;
+  }
+}
 .greeting__content {
   display: flex;
   flex-direction: column;
@@ -377,12 +392,22 @@ a {
   flex-direction: column;
   justify-content: space-between;
 }
+@media screen and (max-width: 393px) {
+  .about {
+    height: 6.3%;
+  }
+}
 .about__image {
   border: 1px solid rgb(58, 218, 55);
   height: 41.7%;
   width: 100%;
   display: flex;
   justify-content: space-between;
+}
+@media screen and (max-width: 393px) {
+  .about__image {
+    height: 40%;
+  }
 }
 .about__image-alone {
   width: 48%;
@@ -428,6 +453,7 @@ a {
 @media screen and (max-width: 430px) {
   .about__image-alone .inscription__container .inscription__title {
     font-size: 17px;
+    padding-top: 1%;
   }
 }
 .about__image-alone .inscription__container .inscription__text {
@@ -462,6 +488,11 @@ a {
     font-size: 11px;
   }
 }
+@media screen and (max-width: 393px) {
+  .about__content {
+    padding-top: 6%;
+  }
+}
 .about__content-text {
   display: flex;
   flex-direction: column;
@@ -484,6 +515,11 @@ a {
 }
 .about__content-text-txt {
   height: 25%;
+}
+@media screen and (max-width: 393px) {
+  .about__content-text-txt {
+    height: 19%;
+  }
 }
 
 .gallery {
@@ -671,7 +707,7 @@ a {
 }
 @media screen and (max-width: 899px) {
   .program__content-title {
-    margin-left: 0%;
+    margin-left: -5%;
     font-size: 13px;
   }
 }
@@ -781,6 +817,11 @@ a {
 .methods__list {
   width: 100%;
   padding-left: 7%;
+}
+@media screen and (max-width: 393px) {
+  .methods__list {
+    padding-left: 5%;
+  }
 }
 .methods__list-item {
   margin-bottom: 3%;
@@ -971,6 +1012,11 @@ a {
     font-size: 7.5px;
   }
 }
+@media screen and (max-width: 393px) {
+  .lesson .payment__note {
+    font-size: 6.5px;
+  }
+}
 
 .footer {
   border: 1px solid rgb(161, 82, 13);
@@ -1039,5 +1085,10 @@ a {
 @media screen and (max-width: 430px) {
   .footer .footer__note {
     font-size: 7.5px;
+  }
+}
+@media screen and (max-width: 393px) {
+  .footer .footer__note {
+    font-size: 6.5px;
   }
 }/*# sourceMappingURL=index.css.map */
