@@ -216,14 +216,13 @@
     padding-top: 3%;
     @extend %quote-text;
     font-size: 13px;
-    font-weight: 400;
-    line-height: 233%;
-    /* 55.92px */
+    font-weight: bolder;
+    line-height: 156%;
     letter-spacing: 4.08px;
-    text-transform: uppercase;
+    text-transform: none;
 
     @media screen and (max-width: 430px) {
-      font-size: 7px;
+      font-size: 10px;
       letter-spacing: 1.08px;
     }
   }
@@ -304,7 +303,6 @@
           letter-spacing: 0.78px;
           text-align: right;
           margin-right: 6%;
-          
         }
       }
     }
