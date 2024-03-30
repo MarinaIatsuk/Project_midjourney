@@ -88,6 +88,11 @@ body {
     font-size: 28px;
   }
 }
+@media screen and (max-width: 390px) {
+  .lesson__title, .tariff__option-payment .tariff__button-text, .tariff__option-payment .tariff__price-wrapper .tariff__price-sum, .tariff__option-title, .tariff__image-title .tariff__image-text, .header__title-second {
+    font-size: 27.5px;
+  }
+}
 
 .gallery-students__second_column .gallery-students__text .gallery-students__txt, .video-first__title, .gallery__second_column .gallery__text .gallery__txt, .about__image-alone .inscription__container .inscription__text {
   color: #fc95c2;
@@ -161,6 +166,8 @@ body {
   font-family: "Kosko Regular", sans-serif;
   text-align: center;
   font-style: normal;
+  font-weight: 900;
+  text-shadow: 0px 0px 1px #fc95c2, 0px 0px 1px #fc95c2;
 }
 
 li {
@@ -492,6 +499,12 @@ a {
   .about__content {
     padding-top: 6%;
     height: 51.9%;
+  }
+}
+@media screen and (max-width: 390px) {
+  .about__content {
+    padding-top: 6%;
+    height: 56.5%;
   }
 }
 .about__content-text {

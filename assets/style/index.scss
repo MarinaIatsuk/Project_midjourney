@@ -337,6 +337,10 @@
       padding-top: 6%;
       height: 51.9%;
     }
+    @media screen and (max-width: 390px) {
+      padding-top: 6%;
+      height: 56.5%;
+    }
 
     &-text {
       @extend %main-text;
