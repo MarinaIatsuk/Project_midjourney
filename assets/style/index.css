@@ -287,7 +287,6 @@ a {
 }
 
 .greeting {
-  border: 1px solid rgb(203, 221, 110);
   height: 2.6%;
   width: 95.43%;
   display: flex;
@@ -317,7 +316,6 @@ a {
 }
 
 .terms {
-  border: 1px solid rgb(79, 125, 204);
   height: 1.18%;
   width: 95.43%;
   display: flex;
@@ -346,7 +344,6 @@ a {
 }
 
 .image-steampunk {
-  border: 1px solid rgb(129, 204, 79);
   height: 2.55%;
   width: 95.43%;
   display: flex;
@@ -357,7 +354,6 @@ a {
 }
 
 .result {
-  border: 1px solid rgb(218, 144, 55);
   height: 4%;
   width: 95.43%;
 }
@@ -399,7 +395,6 @@ a {
 }
 
 .about {
-  border: 1px solid rgb(218, 55, 69);
   height: 6.11%;
   width: 95.43%;
   display: flex;
@@ -558,7 +553,6 @@ a {
 }
 
 .gallery {
-  border: 1px solid rgb(103, 224, 103);
   height: 11.79%;
   width: 100%;
   display: flex;
@@ -602,7 +596,6 @@ a {
   justify-content: space-between;
 }
 .questions {
-  border: 1px solid rgb(245, 7, 114);
   height: 2.5%;
   width: 95.43%;
   display: flex;
@@ -678,7 +671,6 @@ a {
 }
 
 .video-first {
-  border: 1px solid rgb(123, 87, 15);
   height: 2.88%;
   width: 75%;
   display: flex;
@@ -705,7 +697,6 @@ a {
 }
 
 .image-bears {
-  border: 1px solid rgb(129, 204, 79);
   height: 2.56%;
   width: 95.43%;
   display: flex;
@@ -716,7 +707,6 @@ a {
 }
 
 .program {
-  border: 1px solid rgb(207, 83, 207);
   height: 5.12%;
   width: 95.43%;
   display: flex;
@@ -764,7 +754,6 @@ a {
 }
 
 .gallery-students {
-  border: 1px solid rgb(103, 224, 103);
   height: 10.3%;
   width: 100%;
   display: flex;
@@ -785,7 +774,6 @@ a {
   justify-content: space-between;
 }
 .gallery-students__second_column .gallery-students__text {
-  border: 1px solid rgb(192, 123, 222);
   height: 49%;
   display: flex;
   flex-direction: column;
@@ -816,7 +804,6 @@ a {
   justify-content: space-between;
 }
 .methods {
-  border: 1px solid rgb(141, 41, 163);
   height: 5.91%;
   width: 95.43%;
   display: flex;
@@ -857,7 +844,6 @@ a {
 }
 
 .tariff {
-  border: 1px solid rgb(53, 163, 41);
   height: 22.51%;
   width: 95.43%;
   display: flex;
@@ -948,9 +934,10 @@ a {
   width: 12.5%;
   align-self: flex-end;
   transform: rotate(68.81deg);
+  margin-bottom: -10%;
+  padding-top: 10%;
 }
 .tariff__option-payment .tariff__price-wrapper {
-  border: 1px solid rgb(173, 99, 216);
   height: 35%;
   width: 75%;
   display: flex;
@@ -965,7 +952,6 @@ a {
   text-align: center;
 }
 .tariff__option-payment .tariff__price-emoji {
-  border: 1px solid red;
   height: 45%;
   width: 75%;
   display: flex;
@@ -1014,7 +1000,6 @@ a {
   text-align: center;
 }
 .lesson {
-  border: 1px solid rgb(130, 41, 163);
   height: 6%;
   width: 95.43%;
   display: flex;
@@ -1048,7 +1033,6 @@ a {
 }
 
 .footer {
-  border: 1px solid rgb(161, 82, 13);
   width: 95.43%;
   height: 2.1%;
   display: flex;
