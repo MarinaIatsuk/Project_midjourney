@@ -176,7 +176,7 @@ $main-with: 95.43%;
 
     @media screen and (max-width: 430px) {
       font-size: 12px;
-      letter-spacing: 0.2px;
+      -webkit-letter-spacing: 0.2px;
     }
 }
 

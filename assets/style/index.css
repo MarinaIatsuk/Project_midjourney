@@ -185,7 +185,7 @@ body {
 @media screen and (max-width: 430px) {
   .lesson__video, .lesson__text-midjourney, .about__image-alone .inscription__container .inscription__title, .quote__text {
     font-size: 12px;
-    letter-spacing: 0.2px;
+    -webkit-letter-spacing: 0.2px;
   }
 }
 
