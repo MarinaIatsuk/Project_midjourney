@@ -196,7 +196,7 @@
 }
 
 .quote {
-  height: 1.5%;
+  height: 1.6%;
   width: $main-with;
   display: flex;
   justify-content: center;
@@ -207,7 +207,7 @@
   background-position: center;
   padding-top: 3%;
   @media screen and (max-width: 430px) {
-    background-size: 91%;
+    background-size: 98%;
   }
 
   &__text {
@@ -509,9 +509,9 @@
     &-image {
       height: 80%;
 
-      .questions__first-img {
-        height: 100%;
-      }
+      // .questions__first-img {
+      //   height: 100%;
+      // }
     }
   }
 
@@ -525,9 +525,9 @@
     &-image {
       height: 80%;
 
-      .questions__second-img {
-        height: 100%;
-      }
+      // .questions__second-img {
+      //   height: 100%;
+      // }
     }
 
     &-content {

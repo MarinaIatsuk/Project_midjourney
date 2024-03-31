@@ -185,7 +185,7 @@ body {
 @media screen and (max-width: 430px) {
   .lesson__video, .lesson__text-midjourney, .about__image-alone .inscription__container .inscription__title, .quote__text {
     font-size: 12px;
-    -webkit-letter-spacing: 0.2px;
+    letter-spacing: 0.2px;
   }
 }
 
@@ -376,7 +376,7 @@ a {
 }
 
 .quote {
-  height: 1.5%;
+  height: 1.6%;
   width: 95.43%;
   display: flex;
   justify-content: center;
@@ -389,7 +389,7 @@ a {
 }
 @media screen and (max-width: 430px) {
   .quote {
-    background-size: 91%;
+    background-size: 98%;
   }
 }
 .quote__text {
@@ -643,9 +643,6 @@ a {
 .questions__first-image {
   height: 80%;
 }
-.questions__first-image .questions__first-img {
-  height: 100%;
-}
 .questions__second {
   height: 50%;
   width: 100%;
@@ -655,9 +652,6 @@ a {
 }
 .questions__second-image {
   height: 80%;
-}
-.questions__second-image .questions__second-img {
-  height: 100%;
 }
 .questions__second-content {
   width: 50%;
