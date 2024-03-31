@@ -109,6 +109,11 @@ body {
     font-size: 5.7px;
   }
 }
+@media screen and (max-width: 375px) {
+  .gallery-students__second_column .gallery-students__text .gallery-students__txt, .video-first__title, .gallery__second_column .gallery__text .gallery__txt, .about__image-alone .inscription__container .inscription__text {
+    font-size: 5.4px;
+  }
+}
 
 .lesson__text, .tariff__terms-item, .tariff__option-terms .tariff__list-item, .methods__list-item, .methods__header-content .methods__header-text, .program__content-list, .about__content-text, .result__list-item, .greeting__content-text {
   color: #000;
@@ -128,6 +133,11 @@ body {
 @media screen and (max-width: 393px) {
   .lesson__text, .tariff__terms-item, .tariff__option-terms .tariff__list-item, .methods__list-item, .methods__header-content .methods__header-text, .program__content-list, .about__content-text, .result__list-item, .greeting__content-text {
     font-size: 12.3px;
+  }
+}
+@media screen and (max-width: 375px) {
+  .lesson__text, .tariff__terms-item, .tariff__option-terms .tariff__list-item, .methods__list-item, .methods__header-content .methods__header-text, .program__content-list, .about__content-text, .result__list-item, .greeting__content-text {
+    font-size: 11.5px;
   }
 }
 
@@ -166,6 +176,17 @@ body {
   font-family: "Kosko Regular", sans-serif;
   text-align: center;
   font-style: normal;
+  font-size: 13px;
+  font-weight: bolder;
+  line-height: 130%;
+  letter-spacing: 4.08px;
+  text-transform: none;
+}
+@media screen and (max-width: 430px) {
+  .lesson__video, .lesson__text-midjourney, .about__image-alone .inscription__container .inscription__title, .quote__text {
+    font-size: 12px;
+    letter-spacing: 0.2px;
+  }
 }
 
 li {
@@ -374,18 +395,7 @@ a {
 .quote__text {
   max-width: 865px;
   height: 70%;
-  padding-top: 3%;
-  font-size: 13px;
-  font-weight: bolder;
-  line-height: 130%;
-  letter-spacing: 4.08px;
-  text-transform: none;
-}
-@media screen and (max-width: 430px) {
-  .quote__text {
-    font-size: 10.5px;
-    letter-spacing: 0.7px;
-  }
+  padding-top: 2.7%;
 }
 
 .about {
@@ -398,7 +408,12 @@ a {
 }
 @media screen and (max-width: 393px) {
   .about {
-    height: 6.3%;
+    height: 5.8%;
+  }
+}
+@media screen and (max-width: 390px) {
+  .about {
+    height: 6%;
   }
 }
 .about__image {
@@ -411,6 +426,16 @@ a {
 @media screen and (max-width: 393px) {
   .about__image {
     height: 40%;
+  }
+}
+@media screen and (max-width: 390px) {
+  .about__image {
+    height: 42%;
+  }
+}
+@media screen and (max-width: 375px) {
+  .about__image {
+    height: 42.5%;
   }
 }
 .about__image-alone {
@@ -484,24 +509,26 @@ a {
   height: 55%;
   display: flex;
   justify-content: space-between;
-  padding-top: 9%;
 }
 @media screen and (max-width: 430px) {
   .about__content {
-    height: 57%;
+    height: 49.8%;
     font-size: 11px;
   }
 }
 @media screen and (max-width: 393px) {
   .about__content {
-    padding-top: 6%;
-    height: 51.9%;
+    height: 51%;
   }
 }
 @media screen and (max-width: 390px) {
   .about__content {
-    padding-top: 6%;
-    height: 56.5%;
+    height: 53.75%;
+  }
+}
+@media screen and (max-width: 375px) {
+  .about__content {
+    height: 48.6%;
   }
 }
 .about__content-text {
@@ -523,9 +550,6 @@ a {
   .about__content-text-list .about__item .about__heart {
     width: 7px;
   }
-}
-.about__content-text-txt {
-  height: 25%;
 }
 @media screen and (max-width: 393px) {
   .about__content-text-txt {
@@ -1074,6 +1098,11 @@ a {
 @media screen and (max-width: 430px) {
   .footer__contacts-title {
     font-size: 8px;
+  }
+}
+@media screen and (max-width: 375px) {
+  .footer__contacts-title {
+    font-size: 7px;
   }
 }
 .footer__contacts-icons {
