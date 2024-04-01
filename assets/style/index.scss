@@ -186,7 +186,7 @@
     display: flex;
     flex-direction: column;
     justify-content: space-around;
-    padding-left: 5%;
+    padding-left: 9%;
 
     &-item {
       //border: 1px solid rgb(55, 172, 218);
@@ -242,7 +242,7 @@
     display: flex;
     justify-content: space-between;
     @media screen and (max-width: 393px) {
-      height: 40%;
+      height: 44%;
     }
     @media screen and (max-width: 390px) {
       height: 42%;
@@ -331,16 +331,15 @@
 
     @media screen and (max-width: 430px) {
       height: 49.8%;
-      font-size: 11px;
     }
     @media screen and (max-width: 393px) {
-      height: 51%;
+      height: 44.6%;
     }
     @media screen and (max-width: 390px) {
-      height: 53.75%;
+      height: 43.3%;
     }
     @media screen and (max-width: 375px) {
-      height: 48.6%;
+      height: 41.6%;
     }
 
     &-text {
@@ -349,6 +348,12 @@
       flex-direction: column;
       justify-content: space-between;
       width: 50%;
+      @media screen and (max-width: 393px) {
+        font-size: 12px;
+      }
+      @media screen and (max-width: 375px) {
+        font-size: 11px;
+      }
 
       &-list {
         height: 60%;
@@ -482,7 +487,8 @@
       display: flex;
       flex-direction: column;
       justify-content: center;
-      padding-top: 5%;
+      align-items: center;
+      padding-top: 9%;
 
       .questions__text {
         color: $color-main;
@@ -497,12 +503,20 @@
         @media screen and (max-width: 430px) {
           font-size: 10px;
         }
+        @media screen and (max-width: 375px) {
+          font-size: 9px;
+        }
       }
 
       .questions__line {
         padding-top: 5%;
         margin-bottom: 10%;
-        width: 100%;
+        
+        width: 70%;
+        @media screen and (max-width: 430px) {
+          width: 80%;
+          padding-left: 15%;
+        }
       }
     }
 
@@ -535,8 +549,9 @@
       display: flex;
       flex-direction: column;
       justify-content: center;
-      padding-left: 1%;
-      padding-top: 7%;
+      align-items: center;
+      margin-left: -5%;
+      padding-top: 4%;
 
       .questions__text {
         color: $color-main;
@@ -547,16 +562,21 @@
         // line-height: 117%;
         // letter-spacing: 0.96px;
         text-align: center;
+        margin-bottom: -7%;
 
         @media screen and (max-width: 430px) {
           font-size: 10px;
+        }
+        @media screen and (max-width: 375px) {
+          font-size: 9px;
         }
       }
 
       .questions__line {
         padding-top: 10%;
-
+        width: 70%;
         margin-bottom: 13%;
+       
       }
     }
   }
@@ -606,7 +626,7 @@
 
 .program {
   //border: 1px solid rgb(207, 83, 207);
-  height: 5.12%;
+  height: 4%;
   width: $main-with;
   display: flex;
   flex-direction: column;
@@ -631,11 +651,12 @@
     }
 
     &-list {
-      height: 80%;
+      height: 90%;
       @extend %main-text;
       display: flex;
       flex-direction: column;
       justify-content: space-around;
+      line-height: 38%;
       @media screen and (max-width: 899px) {
         padding-left: 5%;
       }
@@ -695,7 +716,7 @@
 
     .gallery-students__text {
       //border: 1px solid rgb(192, 123, 222);
-      height: 49%;
+      height: 50%;
       display: flex;
       flex-direction: column;
       justify-content: space-between;
@@ -766,6 +787,9 @@
       flex-direction: column;
       justify-content: center;
       gap: 10%;
+      @media screen and (max-width: 393px) {
+        width: 41%;
+      }
 
       .methods__header-title {
         @extend %title-text;
@@ -901,13 +925,12 @@
           transform: rotate(68.81deg);
           margin-bottom: -10%;
           padding-top: 10%;
-          
         }
 
         &-wrapper {
           //border: 1px solid rgb(173, 99, 216);
           height: 35%;
-          width: 75%;
+          width: 90%;
           display: flex;
           justify-content: center;
           align-items: center;
@@ -934,7 +957,7 @@
             align-self: flex-end;
             margin-right: 28%;
             // margin-right: 20%;
-            margin-bottom: -10%;
+            margin-bottom: -5%;
           }
 
           &-finger {
@@ -952,6 +975,7 @@
         justify-content: center;
         align-items: center;
         border-radius: 20px;
+        
 
         background: rgb(223, 140, 176);
         @media screen and (max-width: 430px) {
@@ -962,7 +986,7 @@
           @extend %title-pink-big;
           color: rgb(255, 255, 255);
           font-size: 40px;
-
+          text-decoration: none;
           @media screen and (max-width: 430px) {
             font-size: 20px;
           }
@@ -1084,7 +1108,7 @@
     }
 
     &-icons {
-      width: 100%;
+      width: 70%;
       display: flex;
       justify-content: space-around;
     }

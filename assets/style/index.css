@@ -14,7 +14,6 @@ body {
 }
 
 .wrapper {
-  border: solid 1px red;
   display: flex;
   flex-direction: column;
   align-items: center;
@@ -170,13 +169,18 @@ body {
     font-size: 14px;
   }
 }
+@media screen and (max-width: 390px) {
+  .footer__contacts-title, .footer__profiles-title, .methods__header-content .methods__header-title, .program__content-title, .result__title, .greeting__content-title {
+    font-size: 13px;
+  }
+}
 
 .lesson__video, .lesson__text-midjourney, .about__image-alone .inscription__container .inscription__title, .quote__text {
   color: #fc95c2;
   font-family: "Kosko Regular", sans-serif;
   text-align: center;
   font-style: normal;
-  font-size: 13px;
+  font-size: 20px;
   font-weight: bolder;
   line-height: 130%;
   letter-spacing: 4.08px;
@@ -365,7 +369,7 @@ a {
   display: flex;
   flex-direction: column;
   justify-content: space-around;
-  padding-left: 5%;
+  padding-left: 9%;
 }
 .quote {
   height: 1.6%;
@@ -415,7 +419,7 @@ a {
 }
 @media screen and (max-width: 393px) {
   .about__image {
-    height: 40%;
+    height: 44%;
   }
 }
 @media screen and (max-width: 390px) {
@@ -502,22 +506,21 @@ a {
 @media screen and (max-width: 430px) {
   .about__content {
     height: 49.8%;
-    font-size: 11px;
   }
 }
 @media screen and (max-width: 393px) {
   .about__content {
-    height: 51%;
+    height: 44.6%;
   }
 }
 @media screen and (max-width: 390px) {
   .about__content {
-    height: 53.75%;
+    height: 43.3%;
   }
 }
 @media screen and (max-width: 375px) {
   .about__content {
-    height: 48.6%;
+    height: 41.6%;
   }
 }
 .about__content-text {
@@ -525,6 +528,16 @@ a {
   flex-direction: column;
   justify-content: space-between;
   width: 50%;
+}
+@media screen and (max-width: 393px) {
+  .about__content-text {
+    font-size: 12px;
+  }
+}
+@media screen and (max-width: 375px) {
+  .about__content-text {
+    font-size: 11px;
+  }
 }
 .about__content-text-list {
   height: 60%;
@@ -607,7 +620,8 @@ a {
   display: flex;
   flex-direction: column;
   justify-content: center;
-  padding-top: 5%;
+  align-items: center;
+  padding-top: 9%;
 }
 .questions__first-content .questions__text {
   color: #000;
@@ -621,10 +635,21 @@ a {
     font-size: 10px;
   }
 }
+@media screen and (max-width: 375px) {
+  .questions__first-content .questions__text {
+    font-size: 9px;
+  }
+}
 .questions__first-content .questions__line {
   padding-top: 5%;
   margin-bottom: 10%;
-  width: 100%;
+  width: 70%;
+}
+@media screen and (max-width: 430px) {
+  .questions__first-content .questions__line {
+    width: 80%;
+    padding-left: 15%;
+  }
 }
 .questions__first-image {
   height: 80%;
@@ -644,22 +669,30 @@ a {
   display: flex;
   flex-direction: column;
   justify-content: center;
-  padding-left: 1%;
-  padding-top: 7%;
+  align-items: center;
+  margin-left: -5%;
+  padding-top: 4%;
 }
 .questions__second-content .questions__text {
   color: #000;
   font-family: "Kosko Regular", sans-serif;
   font-size: 20px;
   text-align: center;
+  margin-bottom: -7%;
 }
 @media screen and (max-width: 430px) {
   .questions__second-content .questions__text {
     font-size: 10px;
   }
 }
+@media screen and (max-width: 375px) {
+  .questions__second-content .questions__text {
+    font-size: 9px;
+  }
+}
 .questions__second-content .questions__line {
   padding-top: 10%;
+  width: 70%;
   margin-bottom: 13%;
 }
 
@@ -700,7 +733,7 @@ a {
 }
 
 .program {
-  height: 5.12%;
+  height: 4%;
   width: 95.43%;
   display: flex;
   flex-direction: column;
@@ -724,10 +757,11 @@ a {
   }
 }
 .program__content-list {
-  height: 80%;
+  height: 90%;
   display: flex;
   flex-direction: column;
   justify-content: space-around;
+  line-height: 38%;
 }
 @media screen and (max-width: 899px) {
   .program__content-list {
@@ -767,7 +801,7 @@ a {
   justify-content: space-between;
 }
 .gallery-students__second_column .gallery-students__text {
-  height: 49%;
+  height: 50%;
   display: flex;
   flex-direction: column;
   justify-content: space-between;
@@ -815,6 +849,11 @@ a {
   flex-direction: column;
   justify-content: center;
   gap: 10%;
+}
+@media screen and (max-width: 393px) {
+  .methods__header-content {
+    width: 41%;
+  }
 }
 .methods__header-image {
   height: 100%;
@@ -932,7 +971,7 @@ a {
 }
 .tariff__option-payment .tariff__price-wrapper {
   height: 35%;
-  width: 75%;
+  width: 90%;
   display: flex;
   justify-content: center;
   align-items: center;
@@ -954,7 +993,7 @@ a {
   width: 17%;
   align-self: flex-end;
   margin-right: 28%;
-  margin-bottom: -10%;
+  margin-bottom: -5%;
 }
 .tariff__option-payment .tariff__price-emoji-finger {
   width: 9%;
@@ -978,6 +1017,7 @@ a {
 .tariff__option-payment .tariff__button-text {
   color: rgb(255, 255, 255);
   font-size: 40px;
+  text-decoration: none;
 }
 @media screen and (max-width: 430px) {
   .tariff__option-payment .tariff__button-text {
@@ -1076,7 +1116,7 @@ a {
   }
 }
 .footer__contacts-icons {
-  width: 100%;
+  width: 70%;
   display: flex;
   justify-content: space-around;
 }

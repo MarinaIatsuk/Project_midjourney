@@ -13,7 +13,7 @@ body {
 }
 
 .wrapper {
-  border: solid 1px red;
+  //border: solid 1px red;
   display: flex;
   flex-direction: column;
   align-items: center;
@@ -161,6 +161,9 @@ $main-with: 95.43%;
   @media screen and (max-width: 430px) {
     font-size: 14px;
   }
+  @media screen and (max-width: 390px) {
+    font-size: 13px;
+  }
 }
 
 %quote-text {
@@ -168,7 +171,7 @@ $main-with: 95.43%;
   font-family: $font-inscription;
   text-align: center;
   font-style: normal;
-  font-size: 13px;
+  font-size: 20px;
     font-weight: bolder;
     line-height: 130%;
     letter-spacing: 4.08px;
