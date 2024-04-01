@@ -146,6 +146,11 @@ body {
     font-size: 11.5px;
   }
 }
+@media screen and (max-width: 370px) {
+  .lesson__text, .tariff__terms-item, .tariff__option-terms .tariff__list-item, .methods__list-item, .methods__header-content .methods__header-text, .program__content-list, .about__content-text, .result__list-item, .greeting__content-text {
+    font-size: 11px;
+  }
+}
 
 .footer .footer__note, .lesson .payment__note, .terms__item-text {
   color: #000;
@@ -159,6 +164,11 @@ body {
 @media screen and (max-width: 530px) {
   .footer .footer__note, .lesson .payment__note, .terms__item-text {
     font-size: 9px;
+  }
+}
+@media screen and (max-width: 370px) {
+  .footer .footer__note, .lesson .payment__note, .terms__item-text {
+    font-size: 8px;
   }
 }
 
@@ -181,6 +191,11 @@ body {
     font-size: 13px;
   }
 }
+@media screen and (max-width: 370px) {
+  .footer__contacts-title, .footer__profiles-title, .methods__header-content .methods__header-title, .program__content-title, .result__title, .greeting__content-title {
+    font-size: 11px;
+  }
+}
 
 .lesson__video, .lesson__text-midjourney, .about__image-alone .inscription__container .inscription__title, .quote__text {
   color: #fc95c2;
@@ -197,6 +212,11 @@ body {
   .lesson__video, .lesson__text-midjourney, .about__image-alone .inscription__container .inscription__title, .quote__text {
     font-size: 12px;
     letter-spacing: 0.2px;
+  }
+}
+@media screen and (max-width: 370px) {
+  .lesson__video, .lesson__text-midjourney, .about__image-alone .inscription__container .inscription__title, .quote__text {
+    font-size: 11px;
   }
 }
 
