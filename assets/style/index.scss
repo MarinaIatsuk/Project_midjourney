@@ -1,7 +1,7 @@
 @import "./template";
 
 .header {
-  height: 2.42%;
+  height: 2.61%;
   width: $main-with;
   display: flex;
   flex-direction: column;
@@ -21,7 +21,7 @@
     display: flex;
     flex-direction: column;
     align-items: end;
-    justify-content: center;
+    justify-content: flex-start;
     width: 27.29%;
     height: 21.16%;
     border-radius: 0px 70px 0px 40px;
@@ -82,17 +82,17 @@
 }
 
 .main {
-  height: 94.38%;
+  height: 93.92%;
   width: 100%; //блоки внутри разные, поэтому увеличила до 100%
   display: flex;
   flex-direction: column;
   align-items: center;
-  justify-content: space-around;
+  justify-content: space-between;
 }
 
 .greeting {
   //border: 1px solid rgb(203, 221, 110);
-  height: 2.6%;
+  height: 2.82%;
   width: $main-with;
   display: flex;
   justify-content: space-between;
@@ -129,7 +129,7 @@
 
 .terms {
   //border: 1px solid rgb(79, 125, 204);
-  height: 1.18%;
+  height: 1.28%;
   width: $main-with;
   display: flex;
   justify-content: space-between;
@@ -149,18 +149,17 @@
     }
 
     &-text {
-      max-width: 80%;
+      max-width: 95%;
       max-height: 80%;
       @extend %main-text-small;
       letter-spacing: 0.54px;
-      text-align: center;
     }
   }
 }
 
 .image-steampunk {
   //border: 1px solid rgb(129, 204, 79);
-  height: 2.55%;
+  height: 2.77%;
   width: $main-with;
   display: flex;
   justify-content: center;
@@ -173,7 +172,7 @@
 
 .result {
   //border: 1px solid rgb(218, 144, 55);
-  height: 4%;
+  height: 4.35%;
   width: $main-with;
 
   &__title {
@@ -196,7 +195,7 @@
 }
 
 .quote {
-  height: 1.6%;
+  height: 2%;
   width: $main-with;
   display: flex;
   justify-content: center;
@@ -209,9 +208,9 @@
   @media screen and (max-width: 530px) {
     background-size: 98%;
   }
-.speackers{
-  padding-top: 4.5%;
-}
+  .speackers {
+    padding-top: 4.5%;
+  }
   &__text {
     max-width: 865px;
     height: 70%;
@@ -222,7 +221,7 @@
 
 .about {
   //border: 1px solid rgb(218, 55, 69);
-  height: 6.11%;
+  height: 6.63%;
   width: $main-with;
   display: flex;
   flex-direction: column;
@@ -275,6 +274,8 @@
         height: 19%;
         display: flex;
         flex-direction: column;
+        justify-content: flex-end;
+        align-items: flex-start;
         border-radius: 0px 30px 0px 0px;
         background: #fff;
         //   margin-left: -1px;
@@ -302,11 +303,16 @@
 
         .inscription__text {
           width: 100%;
-          align-self: end;
+          display: flex;
+          flex-direction: column;
+          // align-items: flex-start;
+          padding-right: 5%;
+
           @extend %title-pink-small;
           letter-spacing: 0.78px;
           text-align: right;
-          margin-right: 6%;
+
+          //align-self: flex-start;
         }
       }
     }
@@ -350,10 +356,24 @@
       flex-direction: column;
       justify-content: space-between;
       width: 50%;
+
+      @media screen and (max-width: 530px) {
+        font-size: 13.2px;
+        letter-spacing: 0.4px;
+      }
+      @media screen and (max-width: 424px) {
+        font-size: 13px;
+      }
+      @media screen and (max-width: 418px) {
+        font-size: 12.7px;
+      }
       @media screen and (max-width: 393px) {
         font-size: 12px;
       }
       @media screen and (max-width: 375px) {
+        font-size: 11.5px;
+      }
+      @media screen and (max-width: 370px) {
         font-size: 11px;
       }
 
@@ -385,13 +405,13 @@
 
 .gallery {
   //border: 1px solid rgb(103, 224, 103);
-  height: 11.79%;
+  height: 12.7%;
   width: 100%;
   display: flex;
   justify-content: space-between;
 
   &__first_column {
-    width: 31.94%;
+    width: 27.65%;
     height: 100%;
     display: flex;
     flex-direction: column;
@@ -449,7 +469,7 @@
   }
 
   &__third_column {
-    width: 24.19%;
+    width: 29.51%;
     height: 100%;
     display: flex;
     flex-direction: column;
@@ -469,166 +489,165 @@
   }
 }
 
-.questions {
-  //border: 1px solid rgb(245, 7, 114);
-  height: 2.5%;
-  width: $main-with;
-  display: flex;
-  flex-direction: column;
-  justify-content: space-between;
+// .questions {
+//   //border: 1px solid rgb(245, 7, 114);
+//   height: 2.5%;
+//   width: $main-with;
+//   display: flex;
+//   flex-direction: column;
+//   justify-content: space-between;
 
-  &__first {
-    height: 50%;
-    width: 100%;
-    display: flex;
-    justify-content: flex-end;
-    align-items: center;
+//   &__first {
+//     height: 50%;
+//     width: 100%;
+//     display: flex;
+//     justify-content: flex-end;
+//     align-items: center;
 
-    &-content {
-      width: 60%;
-      display: flex;
-      flex-direction: column;
-      justify-content: center;
-      align-items: center;
-      padding-top: 9%;
+//     &-content {
+//       width: 60%;
+//       display: flex;
+//       flex-direction: column;
+//       justify-content: center;
+//       align-items: center;
+//       padding-top: 9%;
 
-      .questions__text {
-        color: $color-main;
-        font-family: $font-inscription;
-        font-size: 20px;
-        // font-style: normal;
-        // font-weight: 400;
-        // line-height: 117%;
-        letter-spacing: 0.96px;
-        text-align: center;
+//       .questions__text {
+//         color: $color-main;
+//         font-family: $font-inscription;
+//         font-size: 20px;
+//         // font-style: normal;
+//         // font-weight: 400;
+//         // line-height: 117%;
+//         letter-spacing: 0.96px;
+//         text-align: center;
 
-        @media screen and (max-width: 530px) {
-          font-size: 10px;
-        }
-        @media screen and (max-width: 375px) {
-          font-size: 9px;
-        }
-      }
+//         @media screen and (max-width: 530px) {
+//           font-size: 10px;
+//         }
+//         @media screen and (max-width: 375px) {
+//           font-size: 9px;
+//         }
+//       }
 
-      .questions__line {
-        padding-top: 5%;
-        margin-bottom: 10%;
-        
-        width: 70%;
-        @media screen and (max-width: 530px) {
-          width: 80%;
-          padding-left: 15%;
-        }
-      }
-    }
+//       .questions__line {
+//         padding-top: 5%;
+//         margin-bottom: 10%;
 
-    &-image {
-      height: 80%;
+//         width: 70%;
+//         @media screen and (max-width: 530px) {
+//           width: 80%;
+//           padding-left: 15%;
+//         }
+//       }
+//     }
 
-      // .questions__first-img {
-      //   height: 100%;
-      // }
-    }
-  }
+//     &-image {
+//       height: 80%;
 
-  &__second {
-    height: 50%;
-    width: 100%;
-    display: flex;
-    justify-content: flex-start;
-    align-items: center;
+//       // .questions__first-img {
+//       //   height: 100%;
+//       // }
+//     }
+//   }
 
-    &-image {
-      height: 80%;
+//   &__second {
+//     height: 50%;
+//     width: 100%;
+//     display: flex;
+//     justify-content: flex-start;
+//     align-items: center;
 
-      // .questions__second-img {
-      //   height: 100%;
-      // }
-    }
+//     &-image {
+//       height: 80%;
 
-    &-content {
-      width: 50%;
-      display: flex;
-      flex-direction: column;
-      justify-content: center;
-      align-items: center;
-      margin-left: -5%;
-      padding-top: 4%;
+//       // .questions__second-img {
+//       //   height: 100%;
+//       // }
+//     }
 
-      .questions__text {
-        color: $color-main;
-        font-family: $font-inscription;
-        font-size: 20px;
-        // font-style: normal;
-        // font-weight: 400;
-        // line-height: 117%;
-        // letter-spacing: 0.96px;
-        text-align: center;
-        margin-bottom: -7%;
+//     &-content {
+//       width: 50%;
+//       display: flex;
+//       flex-direction: column;
+//       justify-content: center;
+//       align-items: center;
+//       margin-left: -5%;
+//       padding-top: 4%;
 
-        @media screen and (max-width: 530px) {
-          font-size: 10px;
-        }
-        @media screen and (max-width: 375px) {
-          font-size: 9px;
-        }
-      }
+//       .questions__text {
+//         color: $color-main;
+//         font-family: $font-inscription;
+//         font-size: 20px;
+//         // font-style: normal;
+//         // font-weight: 400;
+//         // line-height: 117%;
+//         // letter-spacing: 0.96px;
+//         text-align: center;
+//         margin-bottom: -7%;
 
-      .questions__line {
-        padding-top: 10%;
-        width: 70%;
-        margin-bottom: 13%;
-       
-      }
-    }
-  }
-}
+//         @media screen and (max-width: 530px) {
+//           font-size: 10px;
+//         }
+//         @media screen and (max-width: 375px) {
+//           font-size: 9px;
+//         }
+//       }
 
-.video-first {
-  //border: 1px solid rgb(123, 87, 15);
-  height: 2.88%;
-  width: 75%;
-  display: flex;
-  flex-direction: column;
-  justify-content: space-around;
-  align-items: center;
+//       .questions__line {
+//         padding-top: 10%;
+//         width: 70%;
+//         margin-bottom: 13%;
+//       }
+//     }
+//   }
+// }
 
-  &__title {
-    @extend %title-pink-small;
-    font-size: 18px;
-    @media screen and (max-width: 899px) {
-      font-size: 9px;
-    }
-  }
+// .video-first {
+//   //border: 1px solid rgb(123, 87, 15);
+//   height: 2.88%;
+//   width: 75%;
+//   display: flex;
+//   flex-direction: column;
+//   justify-content: space-around;
+//   align-items: center;
 
-  &__content {
-    width: 100%;
-    height: 80%;
-  }
+//   &__title {
+//     @extend %title-pink-small;
+//     font-size: 18px;
+//     @media screen and (max-width: 899px) {
+//       font-size: 9px;
+//     }
+//   }
 
-  iframe {
-    border-radius: 20px;
-    width: 100%;
-    height: 100%;
-  }
-}
+//   &__content {
+//     width: 100%;
+//     height: 80%;
+//   }
 
-.image-bears {
-  //border: 1px solid rgb(129, 204, 79);
-  height: 2.56%;
-  width: $main-with;
-  display: flex;
-  justify-content: center;
+//   iframe {
+//     border-radius: 20px;
+//     width: 100%;
+//     height: 100%;
+//   }
+// }
 
-  .image__img {
-    //height: 100%;
-    width: 100%;
-  }
-}
+// .image-bears {
+//   //border: 1px solid rgb(129, 204, 79);
+//   height: 2.56%;
+//   width: $main-with;
+//   display: flex;
+//   justify-content: center;
+
+//   .image__img {
+//     //height: 100%;
+//     width: 100%;
+//   }
+// }
 
 .program {
   //border: 1px solid rgb(207, 83, 207);
-  height: 4%;
+  height: 5.56%;
   width: $main-with;
   display: flex;
   flex-direction: column;
@@ -644,30 +663,29 @@
 
     &-title {
       @extend %title-text;
-
-      margin-left: -13%;
+      width: 95%;
+      //margin-left: -13%;
       @media screen and (max-width: 900px) {
         margin-left: -5%;
         font-size: 19px;
       }
       @media screen and (max-width: 530px) {
-        
         font-size: 13px;
       }
     }
 
     &-list {
       height: 90%;
+      width: 90%;
       @extend %main-text;
       display: flex;
       flex-direction: column;
       justify-content: space-around;
       line-height: 38%;
-      @media screen and (max-width: 899px) {
-        padding-left: 5%;
-      }
+
 
       .program__content-item {
+        width: 100%;
         span {
           color: $color-title;
           font-family: $font-inscription;
@@ -688,7 +706,7 @@
 
 .gallery-students {
   //border: 1px solid rgb(103, 224, 103);
-  height: 10.3%;
+  height: 11%;
   width: 100%;
   display: flex;
   justify-content: space-between;
@@ -775,7 +793,7 @@
 
 .methods {
   //border: 1px solid rgb(141, 41, 163);
-  height: 5.91%;
+  height: 6.42%;
   width: $main-with;
   display: flex;
   flex-direction: column;
@@ -833,7 +851,7 @@
 
 .tariff {
   //border: 1px solid rgb(53, 163, 41);
-  height: 22.51%;
+  height: 24.45%;
   width: $main-with;
   display: flex;
   flex-direction: column;
@@ -981,9 +999,8 @@
         justify-content: center;
         align-items: center;
         border-radius: 20px;
-        
 
-        background: rgb(223, 140, 176);
+        background: $color-title;
         @media screen and (max-width: 530px) {
           border-radius: 10px;
         }
@@ -1017,7 +1034,7 @@
 
 .lesson {
   //border: 1px solid rgb(130, 41, 163);
-  height: 6%;
+  height: 6.52%;
   width: $main-with;
   display: flex;
   flex-direction: column;
@@ -1034,6 +1051,19 @@
 
     &-midjourney {
       @extend %quote-text;
+      @media screen and (max-width: 1000px) {
+        font-size: 22px;
+      }
+      @media screen and (max-width: 900px) {
+        font-size: 18px;
+      }
+      @media screen and (max-width: 530px) {
+        font-size: 16px;
+        letter-spacing: 0.2px;
+      }
+      @media screen and (max-width: 370px) {
+        font-size: 15px;
+      }
     }
   }
 
@@ -1046,12 +1076,14 @@
     iframe {
       height: 100%;
       width: 100%;
+      border-radius: 5%;
     }
   }
   .payment__note {
     @extend %main-text-small;
     text-align: start;
     font-size: 15px;
+    margin-top: -5%;
     @media screen and (max-width: 530px) {
       font-size: 7.5px;
     }
@@ -1064,11 +1096,12 @@
 .footer {
   //border: 1px solid rgb(161, 82, 13);
   width: $main-with;
-  height: 2.1%;
+  height: 1.7%;
   display: flex;
   flex-direction: column;
   justify-content: space-around;
   align-items: center;
+  margin-top: -10%;
 
   &__profiles {
     height: 35%;

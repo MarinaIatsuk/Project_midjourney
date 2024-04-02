@@ -21,25 +21,25 @@ body {
 }
 @media screen and (min-width: 1200px) {
   .wrapper {
-    height: 15512.94px;
+    height: 14351.05px;
     width: 800px;
   }
 }
 @media screen and (max-width: 1200px) {
   .wrapper {
-    height: 1313vw;
+    height: 1213vw;
     width: 800px;
   }
 }
 @media screen and (max-width: 1000px) {
   .wrapper {
-    height: 1530vw;
+    height: 1430vw;
     width: 80vw;
   }
 }
 @media screen and (max-width: 600px) {
   .wrapper {
-    height: 1930vw;
+    height: 1830vw;
     width: 100vw;
   }
 }
@@ -67,6 +67,7 @@ body {
   font-family: "Russo One", sans-serif;
   font-style: normal;
   font-weight: 400;
+  line-height: 130%;
   text-transform: uppercase;
   font-size: 20px;
 }
@@ -77,7 +78,33 @@ body {
 }
 @media screen and (max-width: 530px) {
   .program__quote, .header__dates {
-    font-size: 10px;
+    font-size: 15px;
+  }
+}
+@media screen and (max-width: 530px) {
+  .program__quote, .header__dates {
+    font-size: 14px;
+  }
+}
+@media screen and (max-width: 450px) {
+  .program__quote, .header__dates {
+    font-size: 13px;
+  }
+}
+@media screen and (max-width: 430px) {
+  .program__quote, .header__dates {
+    font-size: 12px;
+  }
+}
+@media screen and (max-width: 414px) {
+  .program__quote, .header__dates {
+    font-size: 11px;
+    line-height: 140%;
+  }
+}
+@media screen and (max-width: 375px) {
+  .program__quote, .header__dates {
+    font-size: 10.5px;
   }
 }
 
@@ -86,6 +113,7 @@ body {
   font-family: "Russo One", sans-serif;
   font-style: normal;
   font-weight: 400;
+  line-height: 130%;
   text-transform: uppercase;
   font-size: 50px;
 }
@@ -110,28 +138,49 @@ body {
   }
 }
 
-.gallery-students__second_column .gallery-students__text .gallery-students__txt, .video-first__title, .gallery__second_column .gallery__text .gallery__txt, .about__image-alone .inscription__container .inscription__text {
+.gallery-students__second_column .gallery-students__text .gallery-students__txt, .gallery__second_column .gallery__text .gallery__txt, .about__image-alone .inscription__container .inscription__text {
   color: #fc95c2;
   font-family: "Russo One", sans-serif;
   font-style: normal;
   font-weight: 400;
+  line-height: 130%;
   text-transform: uppercase;
   font-size: 12px;
   line-height: 123%;
   letter-spacing: 3%;
 }
 @media screen and (max-width: 825px) {
-  .gallery-students__second_column .gallery-students__text .gallery-students__txt, .video-first__title, .gallery__second_column .gallery__text .gallery__txt, .about__image-alone .inscription__container .inscription__text {
+  .gallery-students__second_column .gallery-students__text .gallery-students__txt, .gallery__second_column .gallery__text .gallery__txt, .about__image-alone .inscription__container .inscription__text {
     font-size: 10px;
   }
 }
 @media screen and (max-width: 530px) {
-  .gallery-students__second_column .gallery-students__text .gallery-students__txt, .video-first__title, .gallery__second_column .gallery__text .gallery__txt, .about__image-alone .inscription__container .inscription__text {
+  .gallery-students__second_column .gallery-students__text .gallery-students__txt, .gallery__second_column .gallery__text .gallery__txt, .about__image-alone .inscription__container .inscription__text {
+    font-size: 6.59px;
+  }
+}
+@media screen and (max-width: 414px) {
+  .gallery-students__second_column .gallery-students__text .gallery-students__txt, .gallery__second_column .gallery__text .gallery__txt, .about__image-alone .inscription__container .inscription__text {
+    font-size: 6.4px;
+  }
+}
+@media screen and (max-width: 413px) {
+  .gallery-students__second_column .gallery-students__text .gallery-students__txt, .gallery__second_column .gallery__text .gallery__txt, .about__image-alone .inscription__container .inscription__text {
+    font-size: 6.2px;
+  }
+}
+@media screen and (max-width: 393px) {
+  .gallery-students__second_column .gallery-students__text .gallery-students__txt, .gallery__second_column .gallery__text .gallery__txt, .about__image-alone .inscription__container .inscription__text {
+    font-size: 6px;
+  }
+}
+@media screen and (max-width: 390px) {
+  .gallery-students__second_column .gallery-students__text .gallery-students__txt, .gallery__second_column .gallery__text .gallery__txt, .about__image-alone .inscription__container .inscription__text {
     font-size: 5.7px;
   }
 }
 @media screen and (max-width: 375px) {
-  .gallery-students__second_column .gallery-students__text .gallery-students__txt, .video-first__title, .gallery__second_column .gallery__text .gallery__txt, .about__image-alone .inscription__container .inscription__text {
+  .gallery-students__second_column .gallery-students__text .gallery-students__txt, .gallery__second_column .gallery__text .gallery__txt, .about__image-alone .inscription__container .inscription__text {
     font-size: 5.4px;
   }
 }
@@ -155,25 +204,45 @@ body {
     font-size: 17px;
   }
 }
+@media screen and (max-width: 736px) {
+  .lesson__text, .tariff__terms-item, .tariff__option-terms .tariff__list-item, .methods__list-item, .methods__header-content .methods__header-text, .program__content-list, .about__content-text, .result__list-item, .greeting__content-text {
+    font-size: 16px;
+  }
+}
+@media screen and (max-width: 699px) {
+  .lesson__text, .tariff__terms-item, .tariff__option-terms .tariff__list-item, .methods__list-item, .methods__header-content .methods__header-text, .program__content-list, .about__content-text, .result__list-item, .greeting__content-text {
+    font-size: 14.5px;
+  }
+}
+@media screen and (max-width: 625px) {
+  .lesson__text, .tariff__terms-item, .tariff__option-terms .tariff__list-item, .methods__list-item, .methods__header-content .methods__header-text, .program__content-list, .about__content-text, .result__list-item, .greeting__content-text {
+    font-size: 14px;
+  }
+}
 @media screen and (max-width: 530px) {
   .lesson__text, .tariff__terms-item, .tariff__option-terms .tariff__list-item, .methods__list-item, .methods__header-content .methods__header-text, .program__content-list, .about__content-text, .result__list-item, .greeting__content-text {
     font-size: 13.5px;
     letter-spacing: 0.4px;
   }
 }
-@media screen and (max-width: 393px) {
+@media screen and (max-width: 454px) {
   .lesson__text, .tariff__terms-item, .tariff__option-terms .tariff__list-item, .methods__list-item, .methods__header-content .methods__header-text, .program__content-list, .about__content-text, .result__list-item, .greeting__content-text {
-    font-size: 12.3px;
+    font-size: 12.2px;
   }
 }
-@media screen and (max-width: 375px) {
+@media screen and (max-width: 393px) {
   .lesson__text, .tariff__terms-item, .tariff__option-terms .tariff__list-item, .methods__list-item, .methods__header-content .methods__header-text, .program__content-list, .about__content-text, .result__list-item, .greeting__content-text {
     font-size: 11.5px;
   }
 }
-@media screen and (max-width: 370px) {
+@media screen and (max-width: 380px) {
   .lesson__text, .tariff__terms-item, .tariff__option-terms .tariff__list-item, .methods__list-item, .methods__header-content .methods__header-text, .program__content-list, .about__content-text, .result__list-item, .greeting__content-text {
     font-size: 11px;
+  }
+}
+@media screen and (max-width: 370px) {
+  .lesson__text, .tariff__terms-item, .tariff__option-terms .tariff__list-item, .methods__list-item, .methods__header-content .methods__header-text, .program__content-list, .about__content-text, .result__list-item, .greeting__content-text {
+    font-size: 10px;
   }
 }
 
@@ -196,12 +265,17 @@ body {
     font-size: 16px;
   }
 }
-@media screen and (max-width: 530px) {
+@media screen and (max-width: 430px) {
   .footer .footer__note, .lesson .payment__note, .terms__item-text {
     font-size: 9px;
   }
 }
-@media screen and (max-width: 370px) {
+@media screen and (max-width: 414px) {
+  .footer .footer__note, .lesson .payment__note, .terms__item-text {
+    font-size: 8.7px;
+  }
+}
+@media screen and (max-width: 393px) {
   .footer .footer__note, .lesson .payment__note, .terms__item-text {
     font-size: 8px;
   }
@@ -278,6 +352,7 @@ body {
 li {
   list-style: none;
   list-style-image: url("../images/main/dot.png");
+  padding-left: 2%;
 }
 @media screen and (max-width: 899px) {
   li {
@@ -290,7 +365,7 @@ a {
 }
 
 .header {
-  height: 2.42%;
+  height: 2.61%;
   width: 95.43%;
   display: flex;
   flex-direction: column;
@@ -310,7 +385,7 @@ a {
   display: flex;
   flex-direction: column;
   align-items: end;
-  justify-content: center;
+  justify-content: flex-start;
   width: 27.29%;
   height: 21.16%;
   border-radius: 0px 70px 0px 40px;
@@ -364,16 +439,16 @@ a {
   }
 }
 .main {
-  height: 94.38%;
+  height: 93.92%;
   width: 100%;
   display: flex;
   flex-direction: column;
   align-items: center;
-  justify-content: space-around;
+  justify-content: space-between;
 }
 
 .greeting {
-  height: 2.6%;
+  height: 2.82%;
   width: 95.43%;
   display: flex;
   justify-content: space-between;
@@ -402,7 +477,7 @@ a {
 }
 
 .terms {
-  height: 1.18%;
+  height: 1.28%;
   width: 95.43%;
   display: flex;
   justify-content: space-between;
@@ -423,14 +498,13 @@ a {
   }
 }
 .terms__item-text {
-  max-width: 80%;
+  max-width: 95%;
   max-height: 80%;
   letter-spacing: 0.54px;
-  text-align: center;
 }
 
 .image-steampunk {
-  height: 2.55%;
+  height: 2.77%;
   width: 95.43%;
   display: flex;
   justify-content: center;
@@ -440,7 +514,7 @@ a {
 }
 
 .result {
-  height: 4%;
+  height: 4.35%;
   width: 95.43%;
 }
 .result__title {
@@ -454,7 +528,7 @@ a {
   padding-left: 9%;
 }
 .quote {
-  height: 1.6%;
+  height: 2%;
   width: 95.43%;
   display: flex;
   justify-content: center;
@@ -480,7 +554,7 @@ a {
 }
 
 .about {
-  height: 6.11%;
+  height: 6.63%;
   width: 95.43%;
   display: flex;
   flex-direction: column;
@@ -539,6 +613,8 @@ a {
   height: 19%;
   display: flex;
   flex-direction: column;
+  justify-content: flex-end;
+  align-items: flex-start;
   border-radius: 0px 30px 0px 0px;
   background: #fff;
 }
@@ -565,10 +641,11 @@ a {
 }
 .about__image-alone .inscription__container .inscription__text {
   width: 100%;
-  align-self: end;
+  display: flex;
+  flex-direction: column;
+  padding-right: 5%;
   letter-spacing: 0.78px;
   text-align: right;
-  margin-right: 6%;
 }
 .about__image-child {
   width: 48%;
@@ -614,12 +691,33 @@ a {
   justify-content: space-between;
   width: 50%;
 }
+@media screen and (max-width: 530px) {
+  .about__content-text {
+    font-size: 13.2px;
+    letter-spacing: 0.4px;
+  }
+}
+@media screen and (max-width: 424px) {
+  .about__content-text {
+    font-size: 13px;
+  }
+}
+@media screen and (max-width: 418px) {
+  .about__content-text {
+    font-size: 12.7px;
+  }
+}
 @media screen and (max-width: 393px) {
   .about__content-text {
     font-size: 12px;
   }
 }
 @media screen and (max-width: 375px) {
+  .about__content-text {
+    font-size: 11.5px;
+  }
+}
+@media screen and (max-width: 370px) {
   .about__content-text {
     font-size: 11px;
   }
@@ -645,13 +743,13 @@ a {
 }
 
 .gallery {
-  height: 11.79%;
+  height: 12.7%;
   width: 100%;
   display: flex;
   justify-content: space-between;
 }
 .gallery__first_column {
-  width: 31.94%;
+  width: 27.65%;
   height: 100%;
   display: flex;
   flex-direction: column;
@@ -680,145 +778,14 @@ a {
   }
 }
 .gallery__third_column {
-  width: 24.19%;
+  width: 29.51%;
   height: 100%;
   display: flex;
   flex-direction: column;
   justify-content: space-between;
 }
-.questions {
-  height: 2.5%;
-  width: 95.43%;
-  display: flex;
-  flex-direction: column;
-  justify-content: space-between;
-}
-.questions__first {
-  height: 50%;
-  width: 100%;
-  display: flex;
-  justify-content: flex-end;
-  align-items: center;
-}
-.questions__first-content {
-  width: 60%;
-  display: flex;
-  flex-direction: column;
-  justify-content: center;
-  align-items: center;
-  padding-top: 9%;
-}
-.questions__first-content .questions__text {
-  color: #000;
-  font-family: "Kosko Regular", sans-serif;
-  font-size: 20px;
-  letter-spacing: 0.96px;
-  text-align: center;
-}
-@media screen and (max-width: 530px) {
-  .questions__first-content .questions__text {
-    font-size: 10px;
-  }
-}
-@media screen and (max-width: 375px) {
-  .questions__first-content .questions__text {
-    font-size: 9px;
-  }
-}
-.questions__first-content .questions__line {
-  padding-top: 5%;
-  margin-bottom: 10%;
-  width: 70%;
-}
-@media screen and (max-width: 530px) {
-  .questions__first-content .questions__line {
-    width: 80%;
-    padding-left: 15%;
-  }
-}
-.questions__first-image {
-  height: 80%;
-}
-.questions__second {
-  height: 50%;
-  width: 100%;
-  display: flex;
-  justify-content: flex-start;
-  align-items: center;
-}
-.questions__second-image {
-  height: 80%;
-}
-.questions__second-content {
-  width: 50%;
-  display: flex;
-  flex-direction: column;
-  justify-content: center;
-  align-items: center;
-  margin-left: -5%;
-  padding-top: 4%;
-}
-.questions__second-content .questions__text {
-  color: #000;
-  font-family: "Kosko Regular", sans-serif;
-  font-size: 20px;
-  text-align: center;
-  margin-bottom: -7%;
-}
-@media screen and (max-width: 530px) {
-  .questions__second-content .questions__text {
-    font-size: 10px;
-  }
-}
-@media screen and (max-width: 375px) {
-  .questions__second-content .questions__text {
-    font-size: 9px;
-  }
-}
-.questions__second-content .questions__line {
-  padding-top: 10%;
-  width: 70%;
-  margin-bottom: 13%;
-}
-
-.video-first {
-  height: 2.88%;
-  width: 75%;
-  display: flex;
-  flex-direction: column;
-  justify-content: space-around;
-  align-items: center;
-}
-.video-first__title {
-  font-size: 18px;
-}
-@media screen and (max-width: 899px) {
-  .video-first__title {
-    font-size: 9px;
-  }
-}
-.video-first__content {
-  width: 100%;
-  height: 80%;
-}
-.video-first iframe {
-  border-radius: 20px;
-  width: 100%;
-  height: 100%;
-}
-
-.image-bears {
-  height: 2.56%;
-  width: 95.43%;
-  display: flex;
-  justify-content: center;
-}
-.image-bears .image__img {
-  width: 100%;
-}
-
 .program {
-  height: 4%;
+  height: 5.56%;
   width: 95.43%;
   display: flex;
   flex-direction: column;
@@ -833,7 +800,7 @@ a {
   align-items: center;
 }
 .program__content-title {
-  margin-left: -13%;
+  width: 95%;
 }
 @media screen and (max-width: 900px) {
   .program__content-title {
@@ -848,15 +815,14 @@ a {
 }
 .program__content-list {
   height: 90%;
+  width: 90%;
   display: flex;
   flex-direction: column;
   justify-content: space-around;
   line-height: 38%;
 }
-@media screen and (max-width: 899px) {
-  .program__content-list {
-    padding-left: 5%;
-  }
+.program__content-list .program__content-item {
+  width: 100%;
 }
 .program__content-list .program__content-item span {
   color: #fc95c2;
@@ -871,7 +837,7 @@ a {
 }
 
 .gallery-students {
-  height: 10.3%;
+  height: 11%;
   width: 100%;
   display: flex;
   justify-content: space-between;
@@ -921,7 +887,7 @@ a {
   justify-content: space-between;
 }
 .methods {
-  height: 5.91%;
+  height: 6.42%;
   width: 95.43%;
   display: flex;
   flex-direction: column;
@@ -966,7 +932,7 @@ a {
 }
 
 .tariff {
-  height: 22.51%;
+  height: 24.45%;
   width: 95.43%;
   display: flex;
   flex-direction: column;
@@ -1097,7 +1063,7 @@ a {
   justify-content: center;
   align-items: center;
   border-radius: 20px;
-  background: rgb(223, 140, 176);
+  background: #fc95c2;
 }
 @media screen and (max-width: 530px) {
   .tariff__option-payment .tariff__button {
@@ -1123,13 +1089,34 @@ a {
   text-align: center;
 }
 .lesson {
-  height: 6%;
+  height: 6.52%;
   width: 95.43%;
   display: flex;
   flex-direction: column;
   justify-content: space-around;
   align-items: center;
   text-align: center;
+}
+@media screen and (max-width: 1000px) {
+  .lesson__text-midjourney {
+    font-size: 22px;
+  }
+}
+@media screen and (max-width: 900px) {
+  .lesson__text-midjourney {
+    font-size: 18px;
+  }
+}
+@media screen and (max-width: 530px) {
+  .lesson__text-midjourney {
+    font-size: 16px;
+    letter-spacing: 0.2px;
+  }
+}
+@media screen and (max-width: 370px) {
+  .lesson__text-midjourney {
+    font-size: 15px;
+  }
 }
 .lesson__video {
   height: 40%;
@@ -1138,10 +1125,12 @@ a {
 .lesson__video iframe {
   height: 100%;
   width: 100%;
+  border-radius: 5%;
 }
 .lesson .payment__note {
   text-align: start;
   font-size: 15px;
+  margin-top: -5%;
 }
 @media screen and (max-width: 530px) {
   .lesson .payment__note {
@@ -1156,11 +1145,12 @@ a {
 
 .footer {
   width: 95.43%;
-  height: 2.1%;
+  height: 1.7%;
   display: flex;
   flex-direction: column;
   justify-content: space-around;
   align-items: center;
+  margin-top: -10%;
 }
 .footer__profiles {
   height: 35%;
