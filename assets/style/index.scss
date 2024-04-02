@@ -340,7 +340,6 @@
     display: flex;
     justify-content: space-between;
 
-
     @media screen and (max-width: 530px) {
       height: 43%;
     }
@@ -654,7 +653,7 @@
 
 .program {
   //border: 1px solid rgb(207, 83, 207);
-  height: 5.56%;
+  height: 4.5%;
   width: $main-with;
   display: flex;
   flex-direction: column;
@@ -689,7 +688,21 @@
       flex-direction: column;
       justify-content: space-around;
       line-height: 38%;
-
+      @media screen and (max-width: 454px) {
+        font-size: 12.9px;
+      }
+      @media screen and (max-width: 414px) {
+        font-size: 12.3px;
+      }
+      @media screen and (max-width: 393px) {
+        font-size: 11.7px;
+      }
+      @media screen and (max-width: 380px) {
+        font-size: 11.3px;
+      }
+      @media screen and (max-width: 375px) {
+        font-size: 11px;
+      }
       .program__content-item {
         width: 100%;
         span {
@@ -750,10 +763,9 @@
       display: flex;
       flex-direction: column;
       justify-content: space-between;
-      a{
+      a {
         text-decoration: underline;
       }
-      
 
       #girl_helmet {
       }
@@ -858,7 +870,7 @@
 
       margin-bottom: 3%;
       @media screen and (max-width: 454px) {
-        font-size: 14.5px;
+        font-size: 13.6px;
       }
       @media screen and (max-width: 414px) {
         font-size: 13px;
@@ -1207,8 +1219,8 @@
     align-self: flex-start;
     font-size: 15px;
     text-decoration: none;
-    
-    p{
+
+    p {
       color: $color-main;
     }
 
