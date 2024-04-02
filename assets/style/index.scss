@@ -695,7 +695,7 @@
       justify-content: space-around;
       line-height: 38%;
       @media screen and (max-width: 454px) {
-        font-size: 12.9px;
+        font-size: 12.2px;
       }
       @media screen and (max-width: 414px) {
         font-size: 12.3px;
@@ -879,7 +879,7 @@
 
       margin-bottom: 3%;
       @media screen and (max-width: 454px) {
-        font-size: 13.6px;
+        font-size: 13.4px;
       }
       @media screen and (max-width: 414px) {
         font-size: 13px;
@@ -975,9 +975,9 @@
         &-item {
           @extend %main-text;
           @media screen and (max-width: 454px) {
-            font-size: 14.5px;
+            font-size: 14px;
           }
-          @media screen and (max-width: 414px) {
+          @media screen and (max-width: 416px) {
             font-size: 13.7px;
           }
           @media screen and (max-width: 393px) {

@@ -265,31 +265,6 @@ body {
     font-size: 10px;
   }
 }
-@media screen and (max-width: 454px) {
-  .lesson__text, .tariff__terms-item, .tariff__option-terms .tariff__list-item, .methods__list-item, .methods__header-content .methods__header-text, .program__content-list, .about__content-text, .result__list-item, .greeting__content-text {
-    font-size: 14.2px;
-  }
-}
-@media screen and (max-width: 414px) {
-  .lesson__text, .tariff__terms-item, .tariff__option-terms .tariff__list-item, .methods__list-item, .methods__header-content .methods__header-text, .program__content-list, .about__content-text, .result__list-item, .greeting__content-text {
-    font-size: 13.7px;
-  }
-}
-@media screen and (max-width: 393px) {
-  .lesson__text, .tariff__terms-item, .tariff__option-terms .tariff__list-item, .methods__list-item, .methods__header-content .methods__header-text, .program__content-list, .about__content-text, .result__list-item, .greeting__content-text {
-    font-size: 13px;
-  }
-}
-@media screen and (max-width: 380px) {
-  .lesson__text, .tariff__terms-item, .tariff__option-terms .tariff__list-item, .methods__list-item, .methods__header-content .methods__header-text, .program__content-list, .about__content-text, .result__list-item, .greeting__content-text {
-    font-size: 12.5px;
-  }
-}
-@media screen and (max-width: 375px) {
-  .lesson__text, .tariff__terms-item, .tariff__option-terms .tariff__list-item, .methods__list-item, .methods__header-content .methods__header-text, .program__content-list, .about__content-text, .result__list-item, .greeting__content-text {
-    font-size: 12px;
-  }
-}
 @media screen and (max-width: 330px) {
   .lesson__text, .tariff__terms-item, .tariff__option-terms .tariff__list-item, .methods__list-item, .methods__header-content .methods__header-text, .program__content-list, .about__content-text, .result__list-item, .greeting__content-text {
     font-size: 9px;
@@ -928,7 +903,7 @@ p {
 }
 @media screen and (max-width: 454px) {
   .program__content-list {
-    font-size: 12.9px;
+    font-size: 12.2px;
   }
 }
 @media screen and (max-width: 414px) {
@@ -1072,7 +1047,7 @@ p {
 }
 @media screen and (max-width: 454px) {
   .methods__list-item {
-    font-size: 13.6px;
+    font-size: 13.4px;
   }
 }
 @media screen and (max-width: 414px) {
@@ -1173,10 +1148,10 @@ p {
 }
 @media screen and (max-width: 454px) {
   .tariff__option-terms .tariff__list-item {
-    font-size: 14.5px;
+    font-size: 14px;
   }
 }
-@media screen and (max-width: 414px) {
+@media screen and (max-width: 416px) {
   .tariff__option-terms .tariff__list-item {
     font-size: 13.7px;
   }
