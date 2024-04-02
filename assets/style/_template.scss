@@ -38,7 +38,6 @@ body {
     height: 1830vw;
     width: 100vw;
   }
-
 }
 
 @font-face {
@@ -180,12 +179,15 @@ $main-with: 95.43%;
     font-size: 14px;
   }
   @media screen and (max-width: 530px) {
-    font-size: 13.5px;
+    font-size: 13.6px;
     letter-spacing: 0.4px;
   }
 
   @media screen and (max-width: 454px) {
-    font-size: 12.2px;
+    font-size: 12.9px;
+  }
+  @media screen and (max-width: 414px) {
+    font-size: 12.3px;
   }
   @media screen and (max-width: 393px) {
     font-size: 11.5px;
@@ -292,12 +294,15 @@ $main-with: 95.43%;
 li {
   list-style: none;
   list-style-image: url("../images/main/dot.png");
-  padding-left: 2%;
+  padding-left: 1%;
   @media screen and (max-width: 899px) {
     list-style-image: url("../images/main/dot_small.png");
   }
 }
 a {
-  //text-decoration: none;
+  text-decoration: none;
   cursor: pointer;
+}
+p{
+  text-decoration: none;
 }

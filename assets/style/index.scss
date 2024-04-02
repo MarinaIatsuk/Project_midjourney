@@ -244,7 +244,7 @@
     display: flex;
     justify-content: space-between;
     @media screen and (max-width: 414px) {
-      height: 48%;
+      height: 42%;
     }
     @media screen and (max-width: 393px) {
       height: 44%;
@@ -339,10 +339,10 @@
     height: 55%;
     display: flex;
     justify-content: space-between;
-    //padding-top: 4%;
+
 
     @media screen and (max-width: 530px) {
-      height: 49.8%;
+      height: 43%;
     }
     // @media screen and (max-width: 414px) {
     //   height: 50%;
@@ -351,10 +351,10 @@
       height: 44%;
     }
     @media screen and (max-width: 390px) {
-      height: 43.3%;
+      height: 45%;
     }
     @media screen and (max-width: 375px) {
-      height: 41.6%;
+      height: 42%;
     }
 
     &-text {
@@ -750,6 +750,10 @@
       display: flex;
       flex-direction: column;
       justify-content: space-between;
+      a{
+        text-decoration: underline;
+      }
+      
 
       #girl_helmet {
       }
@@ -922,12 +926,28 @@
 
       .tariff__list {
         height: 100%;
+        width: 90%;
         display: flex;
         flex-direction: column;
         justify-content: space-around;
 
         &-item {
           @extend %main-text;
+          @media screen and (max-width: 454px) {
+            font-size: 14.5px;
+          }
+          @media screen and (max-width: 414px) {
+            font-size: 13.7px;
+          }
+          @media screen and (max-width: 393px) {
+            font-size: 13px;
+          }
+          @media screen and (max-width: 380px) {
+            font-size: 12.5px;
+          }
+          @media screen and (max-width: 375px) {
+            font-size: 12px;
+          }
         }
       }
     }
@@ -1089,7 +1109,7 @@
     @extend %main-text-small;
     text-align: start;
     font-size: 15px;
-    margin-top: -5%;
+    margin-top: -2%;
     @media screen and (max-width: 530px) {
       font-size: 7.5px;
     }
@@ -1170,6 +1190,8 @@
     align-self: flex-start;
     font-size: 15px;
     text-decoration: none;
+    color: $color-main;
+
     @media screen and (max-width: 530px) {
       font-size: 7.5px;
     }

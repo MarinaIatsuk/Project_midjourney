@@ -221,13 +221,18 @@ body {
 }
 @media screen and (max-width: 530px) {
   .lesson__text, .tariff__terms-item, .tariff__option-terms .tariff__list-item, .methods__list-item, .methods__header-content .methods__header-text, .program__content-list, .about__content-text, .result__list-item, .greeting__content-text {
-    font-size: 13.5px;
+    font-size: 13.6px;
     letter-spacing: 0.4px;
   }
 }
 @media screen and (max-width: 454px) {
   .lesson__text, .tariff__terms-item, .tariff__option-terms .tariff__list-item, .methods__list-item, .methods__header-content .methods__header-text, .program__content-list, .about__content-text, .result__list-item, .greeting__content-text {
-    font-size: 12.2px;
+    font-size: 12.9px;
+  }
+}
+@media screen and (max-width: 414px) {
+  .lesson__text, .tariff__terms-item, .tariff__option-terms .tariff__list-item, .methods__list-item, .methods__header-content .methods__header-text, .program__content-list, .about__content-text, .result__list-item, .greeting__content-text {
+    font-size: 12.3px;
   }
 }
 @media screen and (max-width: 393px) {
@@ -372,7 +377,7 @@ body {
 li {
   list-style: none;
   list-style-image: url("../images/main/dot.png");
-  padding-left: 2%;
+  padding-left: 1%;
 }
 @media screen and (max-width: 899px) {
   li {
@@ -381,7 +386,12 @@ li {
 }
 
 a {
+  text-decoration: none;
   cursor: pointer;
+}
+
+p {
+  text-decoration: none;
 }
 
 .header {
@@ -598,7 +608,7 @@ a {
 }
 @media screen and (max-width: 414px) {
   .about__image {
-    height: 48%;
+    height: 42%;
   }
 }
 @media screen and (max-width: 393px) {
@@ -692,7 +702,7 @@ a {
 }
 @media screen and (max-width: 530px) {
   .about__content {
-    height: 49.8%;
+    height: 43%;
   }
 }
 @media screen and (max-width: 414px) {
@@ -702,12 +712,12 @@ a {
 }
 @media screen and (max-width: 390px) {
   .about__content {
-    height: 43.3%;
+    height: 45%;
   }
 }
 @media screen and (max-width: 375px) {
   .about__content {
-    height: 41.6%;
+    height: 42%;
   }
 }
 .about__content-text {
@@ -887,6 +897,9 @@ a {
   flex-direction: column;
   justify-content: space-between;
 }
+.gallery-students__second_column .gallery-students__text a {
+  text-decoration: underline;
+}
 .gallery-students__second_column .gallery-students__text .gallery-students__txt {
   height: 30%;
   display: flex;
@@ -1021,9 +1034,35 @@ a {
 }
 .tariff__option-terms .tariff__list {
   height: 100%;
+  width: 90%;
   display: flex;
   flex-direction: column;
   justify-content: space-around;
+}
+@media screen and (max-width: 454px) {
+  .tariff__option-terms .tariff__list-item {
+    font-size: 14.5px;
+  }
+}
+@media screen and (max-width: 414px) {
+  .tariff__option-terms .tariff__list-item {
+    font-size: 13.7px;
+  }
+}
+@media screen and (max-width: 393px) {
+  .tariff__option-terms .tariff__list-item {
+    font-size: 13px;
+  }
+}
+@media screen and (max-width: 380px) {
+  .tariff__option-terms .tariff__list-item {
+    font-size: 12.5px;
+  }
+}
+@media screen and (max-width: 375px) {
+  .tariff__option-terms .tariff__list-item {
+    font-size: 12px;
+  }
 }
 .tariff__option .first-option-payment {
   height: 60%;
@@ -1155,7 +1194,7 @@ a {
 .lesson .payment__note {
   text-align: start;
   font-size: 15px;
-  margin-top: -5%;
+  margin-top: -2%;
 }
 @media screen and (max-width: 530px) {
   .lesson .payment__note {
@@ -1237,6 +1276,7 @@ a {
   align-self: flex-start;
   font-size: 15px;
   text-decoration: none;
+  color: #000;
 }
 @media screen and (max-width: 530px) {
   .footer .footer__note {
