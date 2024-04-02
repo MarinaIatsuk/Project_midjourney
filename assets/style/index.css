@@ -107,6 +107,11 @@ body {
     font-size: 10.5px;
   }
 }
+@media screen and (max-width: 330px) {
+  .program__quote, .header__dates {
+    font-size: 9px;
+  }
+}
 
 .lesson__title, .tariff__option-payment .tariff__button-text, .tariff__option-payment .tariff__price-wrapper .tariff__price-sum, .tariff__option-title, .tariff__image-title .tariff__image-text, .header__title-second {
   color: #fc95c2;
@@ -135,6 +140,11 @@ body {
 @media screen and (max-width: 390px) {
   .lesson__title, .tariff__option-payment .tariff__button-text, .tariff__option-payment .tariff__price-wrapper .tariff__price-sum, .tariff__option-title, .tariff__image-title .tariff__image-text, .header__title-second {
     font-size: 27.5px;
+  }
+}
+@media screen and (max-width: 330px) {
+  .lesson__title, .tariff__option-payment .tariff__button-text, .tariff__option-payment .tariff__price-wrapper .tariff__price-sum, .tariff__option-title, .tariff__image-title .tariff__image-text, .header__title-second {
+    font-size: 24px;
   }
 }
 
@@ -182,6 +192,11 @@ body {
 @media screen and (max-width: 375px) {
   .gallery-students__second_column .gallery-students__text .gallery-students__txt, .gallery__second_column .gallery__text .gallery__txt, .about__image-alone .inscription__container .inscription__text {
     font-size: 5.4px;
+  }
+}
+@media screen and (max-width: 330px) {
+  .gallery-students__second_column .gallery-students__text .gallery-students__txt, .gallery__second_column .gallery__text .gallery__txt, .about__image-alone .inscription__container .inscription__text {
+    font-size: 4.5px;
   }
 }
 
@@ -275,6 +290,11 @@ body {
     font-size: 12px;
   }
 }
+@media screen and (max-width: 330px) {
+  .lesson__text, .tariff__terms-item, .tariff__option-terms .tariff__list-item, .methods__list-item, .methods__header-content .methods__header-text, .program__content-list, .about__content-text, .result__list-item, .greeting__content-text {
+    font-size: 9px;
+  }
+}
 
 .footer .footer__note, .lesson .payment__note, .terms__item-text {
   color: #000;
@@ -330,6 +350,11 @@ body {
     font-size: 8px;
   }
 }
+@media screen and (max-width: 330px) {
+  .footer .footer__note, .lesson .payment__note, .terms__item-text {
+    font-size: 7px;
+  }
+}
 
 .footer__contacts-title, .footer__profiles-title, .methods__header-content .methods__header-title, .program__content-title, .result__title, .greeting__content-title {
   color: #000;
@@ -365,6 +390,11 @@ body {
     font-size: 11px;
   }
 }
+@media screen and (max-width: 330px) {
+  .footer__contacts-title, .footer__profiles-title, .methods__header-content .methods__header-title, .program__content-title, .result__title, .greeting__content-title {
+    font-size: 9px;
+  }
+}
 
 .lesson__video, .lesson__text-midjourney, .about__image-alone .inscription__container .inscription__title, .quote__text {
   color: #fc95c2;
@@ -396,6 +426,11 @@ body {
 @media screen and (max-width: 370px) {
   .lesson__video, .lesson__text-midjourney, .about__image-alone .inscription__container .inscription__title, .quote__text {
     font-size: 11px;
+  }
+}
+@media screen and (max-width: 330px) {
+  .lesson__video, .lesson__text-midjourney, .about__image-alone .inscription__container .inscription__title, .quote__text {
+    font-size: 10px;
   }
 }
 
@@ -782,6 +817,11 @@ p {
     font-size: 11px;
   }
 }
+@media screen and (max-width: 330px) {
+  .about__content-text {
+    font-size: 9px;
+  }
+}
 .about__content-text-list {
   height: 60%;
   display: flex;
@@ -873,6 +913,11 @@ p {
     font-size: 13px;
   }
 }
+@media screen and (max-width: 330px) {
+  .program__content-title {
+    font-size: 10px;
+  }
+}
 .program__content-list {
   height: 90%;
   width: 90%;
@@ -904,6 +949,11 @@ p {
 @media screen and (max-width: 375px) {
   .program__content-list {
     font-size: 11px;
+  }
+}
+@media screen and (max-width: 330px) {
+  .program__content-list {
+    font-size: 9px;
   }
 }
 .program__content-list .program__content-item {
@@ -1045,6 +1095,11 @@ p {
     font-size: 12px;
   }
 }
+@media screen and (max-width: 330px) {
+  .methods__list-item {
+    font-size: 10px;
+  }
+}
 
 .tariff {
   height: 24.45%;
@@ -1139,6 +1194,11 @@ p {
 @media screen and (max-width: 375px) {
   .tariff__option-terms .tariff__list-item {
     font-size: 12px;
+  }
+}
+@media screen and (max-width: 330px) {
+  .tariff__option-terms .tariff__list-item {
+    font-size: 9px;
   }
 }
 .tariff__option .first-option-payment {
@@ -1309,6 +1369,11 @@ p {
     font-size: 8px;
   }
 }
+@media screen and (max-width: 330px) {
+  .footer__profiles-title {
+    font-size: 5px;
+  }
+}
 .footer__profiles-icons {
   width: 100%;
   display: flex;
@@ -1334,6 +1399,11 @@ p {
 @media screen and (max-width: 375px) {
   .footer__contacts-title {
     font-size: 7px;
+  }
+}
+@media screen and (max-width: 330px) {
+  .footer__contacts-title {
+    font-size: 5px;
   }
 }
 .footer__contacts-icons {

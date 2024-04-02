@@ -382,6 +382,9 @@
       @media screen and (max-width: 370px) {
         font-size: 11px;
       }
+      @media screen and (max-width: 330px) {
+        font-size: 9px;
+      }
 
       &-list {
         height: 60%;
@@ -678,6 +681,9 @@
       @media screen and (max-width: 530px) {
         font-size: 13px;
       }
+      @media screen and (max-width: 330px) {
+        font-size: 10px;
+      }
     }
 
     &-list {
@@ -702,6 +708,9 @@
       }
       @media screen and (max-width: 375px) {
         font-size: 11px;
+      }
+      @media screen and (max-width: 330px) {
+        font-size: 9px;
       }
       .program__content-item {
         width: 100%;
@@ -884,6 +893,9 @@
       @media screen and (max-width: 375px) {
         font-size: 12px;
       }
+      @media screen and (max-width: 330px) {
+        font-size: 10px;
+      }
     }
   }
 }
@@ -976,6 +988,9 @@
           }
           @media screen and (max-width: 375px) {
             font-size: 12px;
+          }
+          @media screen and (max-width: 330px) {
+            font-size: 9px;
           }
         }
       }
@@ -1172,6 +1187,9 @@
       @media screen and (max-width: 530px) {
         font-size: 8px;
       }
+      @media screen and (max-width: 330px) {
+        font-size: 5px;
+      }
     }
 
     &-icons {
@@ -1198,6 +1216,9 @@
       }
       @media screen and (max-width: 375px) {
         font-size: 7px;
+      }
+      @media screen and (max-width: 330px) {
+        font-size: 5px;
       }
     }
 

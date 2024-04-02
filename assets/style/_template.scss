@@ -104,6 +104,9 @@ $main-with: 95.43%;
   @media screen and (max-width: 375px) {
     font-size: 10.5px;
   }
+  @media screen and (max-width: 330px) {
+    font-size: 9px;
+  }
 }
 
 %title-pink-big {
@@ -120,6 +123,9 @@ $main-with: 95.43%;
   }
   @media screen and (max-width: 390px) {
     font-size: 27.5px;
+  }
+  @media screen and (max-width: 330px) {
+    font-size: 24px;
   }
 }
 
@@ -148,6 +154,9 @@ $main-with: 95.43%;
   }
   @media screen and (max-width: 375px) {
     font-size: 5.4px;
+  }
+  @media screen and (max-width: 330px) {
+    font-size: 4.5px;
   }
 }
 
@@ -214,6 +223,9 @@ $main-with: 95.43%;
   @media screen and (max-width: 375px) {
     font-size: 12px;
   }
+  @media screen and (max-width: 330px) {
+    font-size: 9px;
+  }
 }
 
 %main-text-small {
@@ -247,6 +259,9 @@ $main-with: 95.43%;
   @media screen and (max-width: 393px) {
     font-size: 8px;
   }
+  @media screen and (max-width: 330px) {
+    font-size: 7px;
+  }
 }
 
 %title-text {
@@ -272,6 +287,9 @@ $main-with: 95.43%;
   @media screen and (max-width: 375px) {
     font-size: 11px;
   }
+  @media screen and (max-width: 330px) {
+    font-size: 9px;
+  }
 }
 
 %quote-text {
@@ -296,6 +314,9 @@ $main-with: 95.43%;
   }
   @media screen and (max-width: 370px) {
     font-size: 11px;
+  }
+  @media screen and (max-width: 330px) {
+    font-size: 10px;
   }
 }
 
