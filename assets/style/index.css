@@ -262,7 +262,27 @@ body {
 }
 @media screen and (max-width: 825px) {
   .footer .footer__note, .lesson .payment__note, .terms__item-text {
-    font-size: 16px;
+    font-size: 15px;
+  }
+}
+@media screen and (max-width: 757px) {
+  .footer .footer__note, .lesson .payment__note, .terms__item-text {
+    font-size: 14px;
+  }
+}
+@media screen and (max-width: 710px) {
+  .footer .footer__note, .lesson .payment__note, .terms__item-text {
+    font-size: 13px;
+  }
+}
+@media screen and (max-width: 650px) {
+  .footer .footer__note, .lesson .payment__note, .terms__item-text {
+    font-size: 12px;
+  }
+}
+@media screen and (max-width: 540px) {
+  .footer .footer__note, .lesson .payment__note, .terms__item-text {
+    font-size: 11px;
   }
 }
 @media screen and (max-width: 430px) {
@@ -528,7 +548,7 @@ a {
   padding-left: 9%;
 }
 .quote {
-  height: 2%;
+  height: 1.6%;
   width: 95.43%;
   display: flex;
   justify-content: center;
@@ -575,6 +595,11 @@ a {
   width: 100%;
   display: flex;
   justify-content: space-between;
+}
+@media screen and (max-width: 414px) {
+  .about__image {
+    height: 48%;
+  }
 }
 @media screen and (max-width: 393px) {
   .about__image {
@@ -670,9 +695,9 @@ a {
     height: 49.8%;
   }
 }
-@media screen and (max-width: 393px) {
+@media screen and (max-width: 414px) {
   .about__content {
-    height: 44.6%;
+    height: 44%;
   }
 }
 @media screen and (max-width: 390px) {
@@ -1089,7 +1114,7 @@ a {
   text-align: center;
 }
 .lesson {
-  height: 6.52%;
+  height: 6.3%;
   width: 95.43%;
   display: flex;
   flex-direction: column;
@@ -1119,8 +1144,8 @@ a {
   }
 }
 .lesson__video {
-  height: 40%;
-  width: 80%;
+  height: 50%;
+  width: 90%;
 }
 .lesson__video iframe {
   height: 100%;
@@ -1211,6 +1236,7 @@ a {
 .footer .footer__note {
   align-self: flex-start;
   font-size: 15px;
+  text-decoration: none;
 }
 @media screen and (max-width: 530px) {
   .footer .footer__note {
