@@ -803,7 +803,7 @@
 
 .methods {
   //border: 1px solid rgb(141, 41, 163);
-  height: 6.42%;
+  height: 6.3%;
   width: $main-with;
   display: flex;
   flex-direction: column;
@@ -814,13 +814,15 @@
     width: 100%;
     display: flex;
     justify-content: space-between;
+    padding-left: 1%;
 
     &-content {
-      width: 39.15%;
+      width: 41.1%;
       display: flex;
       flex-direction: column;
       justify-content: center;
       gap: 10%;
+      padding-left: 1%;
       @media screen and (max-width: 393px) {
         width: 41%;
       }
@@ -855,6 +857,21 @@
       @extend %main-text;
 
       margin-bottom: 3%;
+      @media screen and (max-width: 454px) {
+        font-size: 14.5px;
+      }
+      @media screen and (max-width: 414px) {
+        font-size: 13px;
+      }
+      @media screen and (max-width: 393px) {
+        font-size: 12.5px;
+      }
+      @media screen and (max-width: 380px) {
+        font-size: 12.2px;
+      }
+      @media screen and (max-width: 375px) {
+        font-size: 12px;
+      }
     }
   }
 }
@@ -1190,7 +1207,10 @@
     align-self: flex-start;
     font-size: 15px;
     text-decoration: none;
-    color: $color-main;
+    
+    p{
+      color: $color-main;
+    }
 
     @media screen and (max-width: 530px) {
       font-size: 7.5px;

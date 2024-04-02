@@ -198,6 +198,23 @@ $main-with: 95.43%;
   @media screen and (max-width: 370px) {
     font-size: 10px;
   }
+
+@media screen and (max-width: 454px) {
+        font-size: 14.5px;
+      }
+      @media screen and (max-width: 414px) {
+        font-size: 13.7px;
+      }
+      @media screen and (max-width: 393px) {
+        font-size: 13px;
+      }
+      @media screen and (max-width: 380px) {
+        font-size: 12.5px;
+      }
+      @media screen and (max-width: 375px) {
+        font-size: 12px;
+      }
+
 }
 
 %main-text-small {
