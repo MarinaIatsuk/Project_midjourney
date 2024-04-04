@@ -96,6 +96,7 @@
   width: $main-with;
   display: flex;
   justify-content: space-between;
+
   @media screen and (max-width: 393px) {
     height: 2.64%;
   }
@@ -205,12 +206,15 @@
   background-size: 98%;
   background-position: center;
   padding-top: 3%;
+
   @media screen and (max-width: 530px) {
     background-size: 98%;
   }
+
   .speackers {
     padding-top: 4.5%;
   }
+
   &__text {
     max-width: 865px;
     height: 70%;
@@ -230,9 +234,11 @@
   @media screen and (max-width: 393px) {
     height: 5.8%;
   }
+
   @media screen and (max-width: 390px) {
     height: 6%;
   }
+
   // @media screen and (max-width: 390px) {
   //   height: 6.6%;
   // }
@@ -243,15 +249,19 @@
     width: 100%;
     display: flex;
     justify-content: space-between;
+
     @media screen and (max-width: 414px) {
       height: 42%;
     }
+
     @media screen and (max-width: 393px) {
       height: 44%;
     }
+
     @media screen and (max-width: 390px) {
       height: 42%;
     }
+
     @media screen and (max-width: 375px) {
       height: 42.5%;
     }
@@ -282,6 +292,7 @@
         align-items: flex-start;
         border-radius: 0px 30px 0px 0px;
         background: #fff;
+
         //   margin-left: -1px;
         // margin-bottom: -1px;
         @media screen and (max-width: 530px) {
@@ -343,15 +354,18 @@
     @media screen and (max-width: 530px) {
       height: 43%;
     }
+
     // @media screen and (max-width: 414px) {
     //   height: 50%;
     // }
     @media screen and (max-width: 414px) {
       height: 44%;
     }
+
     @media screen and (max-width: 390px) {
       height: 45%;
     }
+
     @media screen and (max-width: 375px) {
       height: 42%;
     }
@@ -367,21 +381,27 @@
         font-size: 13.2px;
         letter-spacing: 0.4px;
       }
+
       @media screen and (max-width: 424px) {
         font-size: 13px;
       }
+
       @media screen and (max-width: 418px) {
         font-size: 12.7px;
       }
+
       @media screen and (max-width: 393px) {
         font-size: 12px;
       }
+
       @media screen and (max-width: 375px) {
         font-size: 11.5px;
       }
+
       @media screen and (max-width: 370px) {
         font-size: 11px;
       }
+
       @media screen and (max-width: 330px) {
         font-size: 9px;
       }
@@ -426,17 +446,13 @@
     flex-direction: column;
     justify-content: space-between;
 
-    #tarantino {
-    }
+    #tarantino {}
 
-    #girl_blue_flowers {
-    }
+    #girl_blue_flowers {}
 
-    #girl_bear {
-    }
+    #girl_bear {}
 
-    #batman {
-    }
+    #batman {}
   }
 
   &__second_column {
@@ -446,8 +462,7 @@
     flex-direction: column;
     justify-content: space-between;
 
-    #girl_wolf {
-    }
+    #girl_wolf {}
 
     .gallery__text {
       //border: 1px solid rgb(192, 123, 222);
@@ -456,8 +471,7 @@
       flex-direction: column;
       justify-content: space-between;
 
-      #cocktail {
-      }
+      #cocktail {}
 
       .gallery__txt {
         @extend %title-pink-small;
@@ -470,11 +484,9 @@
       }
     }
 
-    #girl_robo_costume {
-    }
+    #girl_robo_costume {}
 
-    #rabbit {
-    }
+    #rabbit {}
   }
 
   &__third_column {
@@ -484,17 +496,13 @@
     flex-direction: column;
     justify-content: space-between;
 
-    #girl_mushrooms {
-    }
+    #girl_mushrooms {}
 
-    #girl_orange_flowers {
-    }
+    #girl_orange_flowers {}
 
-    #water_channel {
-    }
+    #water_channel {}
 
-    #girl_blue_hair {
-    }
+    #girl_blue_hair {}
   }
 }
 
@@ -673,14 +681,17 @@
     &-title {
       @extend %title-text;
       width: 95%;
+
       //margin-left: -13%;
       @media screen and (max-width: 900px) {
         margin-left: -5%;
         font-size: 19px;
       }
+
       @media screen and (max-width: 530px) {
         font-size: 13px;
       }
+
       @media screen and (max-width: 330px) {
         font-size: 10px;
       }
@@ -694,26 +705,34 @@
       flex-direction: column;
       justify-content: space-around;
       line-height: 38%;
+
       @media screen and (max-width: 454px) {
         font-size: 12.2px;
       }
+
       @media screen and (max-width: 414px) {
         font-size: 12.3px;
       }
+
       @media screen and (max-width: 393px) {
         font-size: 11.7px;
       }
+
       @media screen and (max-width: 380px) {
         font-size: 11.3px;
       }
+
       @media screen and (max-width: 375px) {
         font-size: 11px;
       }
+
       @media screen and (max-width: 330px) {
         font-size: 9px;
       }
+
       .program__content-item {
         width: 100%;
+
         span {
           color: $color-title;
           font-family: $font-inscription;
@@ -746,14 +765,11 @@
     flex-direction: column;
     justify-content: space-between;
 
-    #sleeping_girls {
-    }
+    #sleeping_girls {}
 
-    #cup {
-    }
+    #cup {}
 
-    #two_girls {
-    }
+    #two_girls {}
   }
 
   &__second_column {
@@ -763,8 +779,7 @@
     flex-direction: column;
     justify-content: space-between;
 
-    #rabbit {
-    }
+    #rabbit {}
 
     .gallery-students__text {
       //border: 1px solid rgb(192, 123, 222);
@@ -772,12 +787,12 @@
       display: flex;
       flex-direction: column;
       justify-content: space-between;
+
       a {
         text-decoration: underline;
       }
 
-      #girl_helmet {
-      }
+      #girl_helmet {}
 
       .gallery-students__txt {
         height: 30%;
@@ -786,10 +801,13 @@
         justify-content: center;
         @extend %title-pink-small;
         font-size: 80%;
+
         @media screen and (max-width: 530px) {
           font-size: 49%;
         }
+
         text-align: center;
+
         a {
           color: $color-title;
           font-size: 120%;
@@ -800,8 +818,7 @@
       }
     }
 
-    #robot {
-    }
+    #robot {}
   }
 
   &__third_column {
@@ -811,14 +828,11 @@
     flex-direction: column;
     justify-content: space-between;
 
-    #four_girls {
-    }
+    #four_girls {}
 
-    #dog {
-    }
+    #dog {}
 
-    #girl_silver_costume {
-    }
+    #girl_silver_costume {}
   }
 }
 
@@ -844,6 +858,7 @@
       justify-content: center;
       gap: 10%;
       padding-left: 1%;
+
       @media screen and (max-width: 393px) {
         width: 41%;
       }
@@ -870,6 +885,7 @@
   &__list {
     width: 100%;
     padding-left: 7%;
+
     @media screen and (max-width: 393px) {
       padding-left: 5%;
     }
@@ -878,21 +894,27 @@
       @extend %main-text;
 
       margin-bottom: 3%;
+
       @media screen and (max-width: 454px) {
         font-size: 13.4px;
       }
+
       @media screen and (max-width: 414px) {
         font-size: 13px;
       }
+
       @media screen and (max-width: 393px) {
         font-size: 12.5px;
       }
+
       @media screen and (max-width: 380px) {
         font-size: 12.2px;
       }
+
       @media screen and (max-width: 375px) {
         font-size: 12px;
       }
+
       @media screen and (max-width: 330px) {
         font-size: 10px;
       }
@@ -920,6 +942,7 @@
     background-repeat: no-repeat;
     background-size: cover;
     background-position: center;
+
     @media screen and (max-width: 530px) {
       border-radius: 40px;
     }
@@ -931,6 +954,7 @@
       align-items: end;
       border-radius: 0px 59px 0px 0px;
       background: rgb(255, 255, 255);
+
       @media screen and (max-width: 530px) {
         border-radius: 0px 20px 0px 0px;
       }
@@ -941,9 +965,11 @@
       }
     }
   }
+
   .first-option {
     height: 35%;
   }
+
   &__option {
     width: 100%;
     height: 45%;
@@ -974,30 +1000,38 @@
 
         &-item {
           @extend %main-text;
+
           @media screen and (max-width: 454px) {
             font-size: 14px;
           }
+
           @media screen and (max-width: 416px) {
             font-size: 13.7px;
           }
+
           @media screen and (max-width: 393px) {
             font-size: 13px;
           }
+
           @media screen and (max-width: 380px) {
             font-size: 12.5px;
           }
+
           @media screen and (max-width: 375px) {
             font-size: 12px;
           }
+
           @media screen and (max-width: 330px) {
             font-size: 9px;
           }
         }
       }
     }
+
     .first-option-payment {
       height: 60%;
     }
+
     &-payment {
       height: 35%;
       width: 70%;
@@ -1071,6 +1105,7 @@
         border-radius: 20px;
 
         background: $color-title;
+
         @media screen and (max-width: 530px) {
           border-radius: 10px;
         }
@@ -1080,6 +1115,7 @@
           color: rgb(255, 255, 255);
           font-size: 40px;
           text-decoration: none;
+
           @media screen and (max-width: 530px) {
             font-size: 20px;
           }
@@ -1121,16 +1157,20 @@
 
     &-midjourney {
       @extend %quote-text;
+
       @media screen and (max-width: 1000px) {
         font-size: 22px;
       }
+
       @media screen and (max-width: 900px) {
         font-size: 18px;
       }
+
       @media screen and (max-width: 530px) {
         font-size: 16px;
         letter-spacing: 0.2px;
       }
+
       @media screen and (max-width: 370px) {
         font-size: 15px;
       }
@@ -1149,14 +1189,17 @@
       border-radius: 5%;
     }
   }
+
   .payment__note {
     @extend %main-text-small;
     text-align: start;
     font-size: 15px;
     margin-top: -2%;
+
     @media screen and (max-width: 530px) {
       font-size: 7.5px;
     }
+
     @media screen and (max-width: 393px) {
       font-size: 6.5px;
     }
@@ -1184,9 +1227,11 @@
     &-title {
       @extend %title-text;
       font-size: 15px;
+
       @media screen and (max-width: 530px) {
         font-size: 8px;
       }
+
       @media screen and (max-width: 330px) {
         font-size: 5px;
       }
@@ -1211,12 +1256,15 @@
       @extend %title-text;
       font-size: 15px;
       text-align: center;
+
       @media screen and (max-width: 530px) {
         font-size: 8px;
       }
+
       @media screen and (max-width: 375px) {
         font-size: 7px;
       }
+
       @media screen and (max-width: 330px) {
         font-size: 5px;
       }
@@ -1231,10 +1279,12 @@
 
   .footer__profiles-icon {
     max-width: 50px;
+
     @media screen and (max-width: 530px) {
       max-width: 32px;
     }
   }
+
   .footer__note {
     @extend %main-text-small;
     align-self: flex-start;
@@ -1248,6 +1298,7 @@
     @media screen and (max-width: 530px) {
       font-size: 7.5px;
     }
+
     @media screen and (max-width: 393px) {
       font-size: 6.5px;
     }

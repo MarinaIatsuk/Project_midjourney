@@ -267,7 +267,7 @@ body {
 }
 @media screen and (max-width: 330px) {
   .lesson__text, .tariff__terms-item, .tariff__option-terms .tariff__list-item, .methods__list-item, .methods__header-content .methods__header-text, .program__content-list, .about__content-text, .result__list-item, .greeting__content-text {
-    font-size: 9px;
+    font-size: 8.5px;
   }
 }
 
