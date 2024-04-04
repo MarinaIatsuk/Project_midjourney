@@ -207,7 +207,7 @@ body {
   font-weight: 200;
   line-height: 126%;
   letter-spacing: 0.8px;
-  font-size: 25px;
+  font-size: 23px;
 }
 @media screen and (max-width: 1000px) {
   .lesson__text, .tariff__terms-item, .tariff__option-terms .tariff__list-item, .methods__list-item, .methods__header-content .methods__header-text, .program__content-list, .about__content-text, .result__list-item, .greeting__content-text {
