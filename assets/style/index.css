@@ -169,7 +169,12 @@ body {
     font-size: 6.59px;
   }
 }
-@media screen and (max-width: 414px) {
+@media screen and (max-width: 425px) {
+  .gallery-students__second_column .gallery-students__text .gallery-students__txt, .gallery__second_column .gallery__text .gallery__txt, .about__image-alone .inscription__container .inscription__text {
+    font-size: 6.5px;
+  }
+}
+@media screen and (max-width: 417px) {
   .gallery-students__second_column .gallery-students__text .gallery-students__txt, .gallery__second_column .gallery__text .gallery__txt, .about__image-alone .inscription__container .inscription__text {
     font-size: 6.4px;
   }
@@ -199,7 +204,7 @@ body {
     font-size: 5px;
   }
 }
-@media screen and (max-width: 330px) {
+@media screen and (max-width: 340px) {
   .gallery-students__second_column .gallery-students__text .gallery-students__txt, .gallery__second_column .gallery__text .gallery__txt, .about__image-alone .inscription__container .inscription__text {
     font-size: 4.5px;
   }
@@ -413,7 +418,7 @@ body {
     font-size: 11px;
   }
 }
-@media screen and (max-width: 330px) {
+@media screen and (max-width: 340px) {
   .lesson__video, .lesson__text-midjourney, .about__image-alone .inscription__container .inscription__title, .quote__text {
     font-size: 10px;
   }
