@@ -196,11 +196,6 @@ body {
 }
 @media screen and (max-width: 380px) {
   .gallery-students__second_column .gallery-students__text .gallery-students__txt, .gallery__second_column .gallery__text .gallery__txt, .about__image-alone .inscription__container .inscription__text {
-    font-size: 5.3px;
-  }
-}
-@media screen and (max-width: 360px) {
-  .gallery-students__second_column .gallery-students__text .gallery-students__txt, .gallery__second_column .gallery__text .gallery__txt, .about__image-alone .inscription__container .inscription__text {
     font-size: 5px;
   }
 }
@@ -413,7 +408,7 @@ body {
     font-size: 11px;
   }
 }
-@media screen and (max-width: 370px) {
+@media screen and (max-width: 380px) {
   .lesson__video, .lesson__text-midjourney, .about__image-alone .inscription__container .inscription__title, .quote__text {
     font-size: 10.5px;
   }
@@ -528,6 +523,7 @@ p {
 }
 
 .greeting {
+  border: 1px solid rgb(203, 221, 110);
   height: 2.82%;
   width: 95.43%;
   display: flex;
