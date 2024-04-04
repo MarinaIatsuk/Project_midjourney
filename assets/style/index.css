@@ -194,6 +194,11 @@ body {
     font-size: 5.4px;
   }
 }
+@media screen and (max-width: 360px) {
+  .gallery-students__second_column .gallery-students__text .gallery-students__txt, .gallery__second_column .gallery__text .gallery__txt, .about__image-alone .inscription__container .inscription__text {
+    font-size: 5px;
+  }
+}
 @media screen and (max-width: 330px) {
   .gallery-students__second_column .gallery-students__text .gallery-students__txt, .gallery__second_column .gallery__text .gallery__txt, .about__image-alone .inscription__container .inscription__text {
     font-size: 4.5px;
@@ -908,7 +913,7 @@ p {
 }
 @media screen and (max-width: 414px) {
   .program__content-list {
-    font-size: 12.3px;
+    font-size: 12px;
   }
 }
 @media screen and (max-width: 393px) {
