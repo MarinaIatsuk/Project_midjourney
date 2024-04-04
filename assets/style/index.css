@@ -14,7 +14,6 @@ body {
 }
 
 .wrapper {
-  border: solid 1px red;
   display: flex;
   flex-direction: column;
   align-items: center;
@@ -529,6 +528,7 @@ p {
 }
 
 .greeting {
+  border: 1px solid rgb(203, 221, 110);
   height: 2.82%;
   width: 95.43%;
   display: flex;
