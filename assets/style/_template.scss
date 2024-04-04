@@ -147,8 +147,9 @@ $main-with: 95.43%;
     font-size: 6.2px;
   }
   @media screen and (max-width: 405px) {
-    font-size: 6px;
+    font-size: 5.9px;
   }
+
   @media screen and (max-width: 390px) {
     font-size: 5.6px;
   }
@@ -299,6 +300,9 @@ $main-with: 95.43%;
   @media screen and (max-width: 530px) {
     font-size: 12px;
     letter-spacing: 0.2px;
+  }
+  @media screen and (max-width: 400px) {
+    font-size: 11.5px;
   }
   @media screen and (max-width: 370px) {
     font-size: 11px;
