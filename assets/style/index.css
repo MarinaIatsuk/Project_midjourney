@@ -139,12 +139,12 @@ body {
 }
 @media screen and (max-width: 390px) {
   .lesson__title, .tariff__option-payment .tariff__button-text, .tariff__option-payment .tariff__price-wrapper .tariff__price-sum, .tariff__option-title, .tariff__image-title .tariff__image-text, .header__title-second {
-    font-size: 27.5px;
+    font-size: 27px;
   }
 }
 @media screen and (max-width: 330px) {
   .lesson__title, .tariff__option-payment .tariff__button-text, .tariff__option-payment .tariff__price-wrapper .tariff__price-sum, .tariff__option-title, .tariff__image-title .tariff__image-text, .header__title-second {
-    font-size: 24px;
+    font-size: 23px;
   }
 }
 
@@ -179,7 +179,7 @@ body {
     font-size: 6.2px;
   }
 }
-@media screen and (max-width: 393px) {
+@media screen and (max-width: 399px) {
   .gallery-students__second_column .gallery-students__text .gallery-students__txt, .gallery__second_column .gallery__text .gallery__txt, .about__image-alone .inscription__container .inscription__text {
     font-size: 6px;
   }
@@ -226,7 +226,7 @@ body {
 }
 @media screen and (max-width: 699px) {
   .lesson__text, .tariff__terms-item, .tariff__option-terms .tariff__list-item, .methods__list-item, .methods__header-content .methods__header-text, .program__content-list, .about__content-text, .result__list-item, .greeting__content-text {
-    font-size: 14.5px;
+    font-size: 14px;
   }
 }
 @media screen and (max-width: 625px) {
