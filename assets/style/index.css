@@ -179,19 +179,19 @@ body {
     font-size: 6.2px;
   }
 }
-@media screen and (max-width: 399px) {
+@media screen and (max-width: 405px) {
   .gallery-students__second_column .gallery-students__text .gallery-students__txt, .gallery__second_column .gallery__text .gallery__txt, .about__image-alone .inscription__container .inscription__text {
     font-size: 6px;
   }
 }
 @media screen and (max-width: 390px) {
   .gallery-students__second_column .gallery-students__text .gallery-students__txt, .gallery__second_column .gallery__text .gallery__txt, .about__image-alone .inscription__container .inscription__text {
-    font-size: 5.7px;
+    font-size: 5.6px;
   }
 }
 @media screen and (max-width: 375px) {
   .gallery-students__second_column .gallery-students__text .gallery-students__txt, .gallery__second_column .gallery__text .gallery__txt, .about__image-alone .inscription__container .inscription__text {
-    font-size: 5.4px;
+    font-size: 5.3px;
   }
 }
 @media screen and (max-width: 360px) {
@@ -916,22 +916,27 @@ p {
     font-size: 12px;
   }
 }
+@media screen and (max-width: 401px) {
+  .program__content-list {
+    font-size: 11.8px;
+  }
+}
 @media screen and (max-width: 393px) {
   .program__content-list {
-    font-size: 11.7px;
+    font-size: 11.4px;
   }
 }
 @media screen and (max-width: 380px) {
   .program__content-list {
-    font-size: 11.3px;
-  }
-}
-@media screen and (max-width: 375px) {
-  .program__content-list {
     font-size: 11px;
   }
 }
-@media screen and (max-width: 330px) {
+@media screen and (max-width: 370px) {
+  .program__content-list {
+    font-size: 10.3px;
+  }
+}
+@media screen and (max-width: 345px) {
   .program__content-list {
     font-size: 9px;
   }
