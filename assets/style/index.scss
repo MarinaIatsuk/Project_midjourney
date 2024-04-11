@@ -837,7 +837,7 @@
           align-items: center;
           background-image: url(../images/main/frame-small.png);
           background-repeat: no-repeat;
-          background-size: 70%;
+          background-size: 66%;
           background-position: center;
 
           .tariff__price-sum {
@@ -856,7 +856,7 @@
             width: 17%;
             align-self: flex-end;
             margin-right: 28%;
-            margin-bottom: -5%;
+            margin-bottom: -3%;
           }
 
           &-finger {
@@ -889,6 +889,21 @@
           @media screen and (max-width: 530px) {
             font-size: 20px;
           }
+        }
+      }
+      .tariff__note {
+        @extend %main-text-small;
+        align-self: center;
+        text-align: center;
+        font-size: 13px;
+        padding-top: 3%;
+
+        @media screen and (max-width: 530px) {
+          font-size: 6px;
+        }
+
+        @media screen and (max-width: 393px) {
+          font-size: 5px;
         }
       }
     }

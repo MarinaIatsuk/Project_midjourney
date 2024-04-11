@@ -275,7 +275,7 @@ body {
   }
 }
 
-.footer .footer__note, .lesson .payment__note, .terms__item-text {
+.footer .footer__note, .lesson .payment__note, .tariff__option-payment .tariff__note, .terms__item-text {
   color: #000;
   font-family: "Museo Sans Cyrl", sans-serif;
   font-style: normal;
@@ -285,52 +285,52 @@ body {
   font-size: 20px;
 }
 @media screen and (max-width: 1000px) {
-  .footer .footer__note, .lesson .payment__note, .terms__item-text {
+  .footer .footer__note, .lesson .payment__note, .tariff__option-payment .tariff__note, .terms__item-text {
     font-size: 18px;
   }
 }
 @media screen and (max-width: 825px) {
-  .footer .footer__note, .lesson .payment__note, .terms__item-text {
+  .footer .footer__note, .lesson .payment__note, .tariff__option-payment .tariff__note, .terms__item-text {
     font-size: 15px;
   }
 }
 @media screen and (max-width: 757px) {
-  .footer .footer__note, .lesson .payment__note, .terms__item-text {
+  .footer .footer__note, .lesson .payment__note, .tariff__option-payment .tariff__note, .terms__item-text {
     font-size: 14px;
   }
 }
 @media screen and (max-width: 710px) {
-  .footer .footer__note, .lesson .payment__note, .terms__item-text {
+  .footer .footer__note, .lesson .payment__note, .tariff__option-payment .tariff__note, .terms__item-text {
     font-size: 13px;
   }
 }
 @media screen and (max-width: 650px) {
-  .footer .footer__note, .lesson .payment__note, .terms__item-text {
+  .footer .footer__note, .lesson .payment__note, .tariff__option-payment .tariff__note, .terms__item-text {
     font-size: 12px;
   }
 }
 @media screen and (max-width: 540px) {
-  .footer .footer__note, .lesson .payment__note, .terms__item-text {
+  .footer .footer__note, .lesson .payment__note, .tariff__option-payment .tariff__note, .terms__item-text {
     font-size: 11px;
   }
 }
 @media screen and (max-width: 430px) {
-  .footer .footer__note, .lesson .payment__note, .terms__item-text {
+  .footer .footer__note, .lesson .payment__note, .tariff__option-payment .tariff__note, .terms__item-text {
     font-size: 9px;
   }
 }
 @media screen and (max-width: 414px) {
-  .footer .footer__note, .lesson .payment__note, .terms__item-text {
+  .footer .footer__note, .lesson .payment__note, .tariff__option-payment .tariff__note, .terms__item-text {
     font-size: 8.7px;
   }
 }
 @media screen and (max-width: 393px) {
-  .footer .footer__note, .lesson .payment__note, .terms__item-text {
+  .footer .footer__note, .lesson .payment__note, .tariff__option-payment .tariff__note, .terms__item-text {
     font-size: 8px;
   }
 }
 @media screen and (max-width: 330px) {
-  .footer .footer__note, .lesson .payment__note, .terms__item-text {
+  .footer .footer__note, .lesson .payment__note, .tariff__option-payment .tariff__note, .terms__item-text {
     font-size: 7px;
   }
 }
@@ -1224,7 +1224,7 @@ p {
   align-items: center;
   background-image: url(../images/main/frame-small.png);
   background-repeat: no-repeat;
-  background-size: 70%;
+  background-size: 66%;
   background-position: center;
 }
 .tariff__option-payment .tariff__price-wrapper .tariff__price-sum {
@@ -1240,7 +1240,7 @@ p {
   width: 17%;
   align-self: flex-end;
   margin-right: 28%;
-  margin-bottom: -5%;
+  margin-bottom: -3%;
 }
 .tariff__option-payment .tariff__price-emoji-finger {
   width: 9%;
@@ -1269,6 +1269,22 @@ p {
 @media screen and (max-width: 530px) {
   .tariff__option-payment .tariff__button-text {
     font-size: 20px;
+  }
+}
+.tariff__option-payment .tariff__note {
+  align-self: center;
+  text-align: center;
+  font-size: 13px;
+  padding-top: 3%;
+}
+@media screen and (max-width: 530px) {
+  .tariff__option-payment .tariff__note {
+    font-size: 6px;
+  }
+}
+@media screen and (max-width: 393px) {
+  .tariff__option-payment .tariff__note {
+    font-size: 5px;
   }
 }
 .tariff__terms {
