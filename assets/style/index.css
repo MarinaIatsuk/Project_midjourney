@@ -5,14 +5,6 @@
   box-sizing: border-box;
 }
 
-body {
-  width: 100vw;
-  display: flex;
-  flex-direction: column;
-  justify-content: space-around;
-  align-items: center;
-}
-
 .wrapper {
   display: flex;
   flex-direction: column;
@@ -457,12 +449,12 @@ p {
   }
 }
 .header__dates {
+  height: 21.16%;
+  width: 27.29%;
   display: flex;
   flex-direction: column;
   align-items: end;
   justify-content: flex-start;
-  width: 27.29%;
-  height: 21.16%;
   border-radius: 0px 70px 0px 40px;
   background: #fff;
   align-self: flex-end;
@@ -523,7 +515,6 @@ p {
 }
 
 .greeting {
-  border: 1px solid rgb(203, 221, 110);
   height: 2.82%;
   width: 95.43%;
   display: flex;
@@ -535,10 +526,10 @@ p {
   }
 }
 .greeting__content {
+  width: 46.55%;
   display: flex;
   flex-direction: column;
   justify-content: end;
-  width: 46.55%;
   margin-bottom: 3%;
 }
 .greeting__content-title {
@@ -624,8 +615,8 @@ p {
   padding-top: 4.5%;
 }
 .quote__text {
-  max-width: 865px;
   height: 70%;
+  max-width: 865px;
   padding-top: 2.7%;
 }
 
@@ -673,8 +664,8 @@ p {
   }
 }
 .about__image-alone {
-  width: 48%;
   height: 100%;
+  width: 48%;
   display: flex;
   justify-content: flex-start;
   align-items: end;
@@ -690,8 +681,8 @@ p {
   }
 }
 .about__image-alone .inscription__container {
-  width: 77%;
   height: 19%;
+  width: 77%;
   display: flex;
   flex-direction: column;
   justify-content: flex-end;
@@ -708,7 +699,6 @@ p {
   align-self: flex-start;
   font-size: 35px;
   line-height: 142%;
-  /* 90.88px */
   transform: rotate(-6.01deg);
   padding-left: 12%;
   padding-top: 3%;
@@ -835,15 +825,15 @@ p {
   justify-content: space-between;
 }
 .gallery__first_column {
-  width: 27.65%;
   height: 100%;
+  width: 27.65%;
   display: flex;
   flex-direction: column;
   justify-content: space-between;
 }
 .gallery__second_column {
-  width: 38.14%;
   height: 100%;
+  width: 38.14%;
   display: flex;
   flex-direction: column;
   justify-content: space-between;
@@ -864,12 +854,13 @@ p {
   }
 }
 .gallery__third_column {
-  width: 29.51%;
   height: 100%;
+  width: 29.51%;
   display: flex;
   flex-direction: column;
   justify-content: space-between;
 }
+
 .program {
   height: 4.5%;
   width: 95.43%;
@@ -878,8 +869,8 @@ p {
   justify-content: space-around;
 }
 .program__content {
-  width: 100%;
   height: 100%;
+  width: 100%;
   display: flex;
   flex-direction: column;
   justify-content: space-around;
@@ -1015,6 +1006,7 @@ p {
   flex-direction: column;
   justify-content: space-between;
 }
+
 .methods {
   height: 6.3%;
   width: 95.43%;

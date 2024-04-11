@@ -18,12 +18,12 @@
   }
 
   &__dates {
+    height: 21.16%;
+    width: 27.29%;
     display: flex;
     flex-direction: column;
     align-items: end;
     justify-content: flex-start;
-    width: 27.29%;
-    height: 21.16%;
     border-radius: 0px 70px 0px 40px;
     background: #fff;
     align-self: flex-end;
@@ -83,7 +83,7 @@
 
 .main {
   height: 93.92%;
-  width: 100%; //блоки внутри разные, поэтому увеличила до 100%
+  width: 100%;
   display: flex;
   flex-direction: column;
   align-items: center;
@@ -91,7 +91,6 @@
 }
 
 .greeting {
-  border: 1px solid rgb(203, 221, 110);
   height: 2.82%;
   width: $main-with;
   display: flex;
@@ -102,10 +101,10 @@
   }
 
   &__content {
+    width: 46.55%;
     display: flex;
     flex-direction: column;
     justify-content: end;
-    width: 46.55%;
     margin-bottom: 3%;
 
     &-title {
@@ -129,7 +128,6 @@
 }
 
 .terms {
-  //border: 1px solid rgb(79, 125, 204);
   height: 1.28%;
   width: $main-with;
   display: flex;
@@ -159,7 +157,6 @@
 }
 
 .image-steampunk {
-  //border: 1px solid rgb(129, 204, 79);
   height: 2.77%;
   width: $main-with;
   display: flex;
@@ -172,7 +169,6 @@
 }
 
 .result {
-  //border: 1px solid rgb(218, 144, 55);
   height: 4.35%;
   width: $main-with;
 
@@ -216,15 +212,14 @@
   }
 
   &__text {
-    max-width: 865px;
     height: 70%;
+    max-width: 865px;
     padding-top: 2.7%;
     @extend %quote-text;
   }
 }
 
 .about {
-  //border: 1px solid rgb(218, 55, 69);
   height: 6.63%;
   width: $main-with;
   display: flex;
@@ -239,12 +234,7 @@
     height: 6%;
   }
 
-  // @media screen and (max-width: 390px) {
-  //   height: 6.6%;
-  // }
-
   &__image {
-    //border: 1px solid rgb(58, 218, 55);
     height: 41.7%;
     width: 100%;
     display: flex;
@@ -267,9 +257,8 @@
     }
 
     &-alone {
-      width: 48%;
-      //border: 1px solid rgb(16, 77, 15);
       height: 100%;
+      width: 48%;
       display: flex;
       justify-content: flex-start;
       align-items: end;
@@ -284,8 +273,8 @@
       }
 
       .inscription__container {
-        width: 77%;
         height: 19%;
+        width: 77%;
         display: flex;
         flex-direction: column;
         justify-content: flex-end;
@@ -293,8 +282,6 @@
         border-radius: 0px 30px 0px 0px;
         background: #fff;
 
-        //   margin-left: -1px;
-        // margin-bottom: -1px;
         @media screen and (max-width: 530px) {
           border-radius: 0px 20px 0px 0px;
         }
@@ -304,7 +291,6 @@
           align-self: flex-start;
           font-size: 35px;
           line-height: 142%;
-          /* 90.88px */
           transform: rotate(-6.01deg);
           padding-left: 12%;
           padding-top: 3%;
@@ -320,14 +306,11 @@
           width: 100%;
           display: flex;
           flex-direction: column;
-          // align-items: flex-start;
           padding-right: 5%;
 
           @extend %title-pink-small;
           letter-spacing: 0.78px;
           text-align: right;
-
-          //align-self: flex-start;
         }
       }
     }
@@ -355,9 +338,6 @@
       height: 43%;
     }
 
-    // @media screen and (max-width: 414px) {
-    //   height: 50%;
-    // }
     @media screen and (max-width: 414px) {
       height: 44%;
     }
@@ -433,45 +413,31 @@
 }
 
 .gallery {
-  //border: 1px solid rgb(103, 224, 103);
   height: 12.7%;
   width: 100%;
   display: flex;
   justify-content: space-between;
 
   &__first_column {
-    width: 27.65%;
     height: 100%;
+    width: 27.65%;
     display: flex;
     flex-direction: column;
     justify-content: space-between;
-
-    #tarantino {}
-
-    #girl_blue_flowers {}
-
-    #girl_bear {}
-
-    #batman {}
   }
 
   &__second_column {
-    width: 38.14%;
     height: 100%;
+    width: 38.14%;
     display: flex;
     flex-direction: column;
     justify-content: space-between;
 
-    #girl_wolf {}
-
     .gallery__text {
-      //border: 1px solid rgb(192, 123, 222);
       height: 27.78%;
       display: flex;
       flex-direction: column;
       justify-content: space-between;
-
-      #cocktail {}
 
       .gallery__txt {
         @extend %title-pink-small;
@@ -483,187 +449,18 @@
         }
       }
     }
-
-    #girl_robo_costume {}
-
-    #rabbit {}
   }
 
   &__third_column {
-    width: 29.51%;
     height: 100%;
+    width: 29.51%;
     display: flex;
     flex-direction: column;
     justify-content: space-between;
-
-    #girl_mushrooms {}
-
-    #girl_orange_flowers {}
-
-    #water_channel {}
-
-    #girl_blue_hair {}
   }
 }
 
-// .questions {
-//   //border: 1px solid rgb(245, 7, 114);
-//   height: 2.5%;
-//   width: $main-with;
-//   display: flex;
-//   flex-direction: column;
-//   justify-content: space-between;
-
-//   &__first {
-//     height: 50%;
-//     width: 100%;
-//     display: flex;
-//     justify-content: flex-end;
-//     align-items: center;
-
-//     &-content {
-//       width: 60%;
-//       display: flex;
-//       flex-direction: column;
-//       justify-content: center;
-//       align-items: center;
-//       padding-top: 9%;
-
-//       .questions__text {
-//         color: $color-main;
-//         font-family: $font-inscription;
-//         font-size: 20px;
-//         // font-style: normal;
-//         // font-weight: 400;
-//         // line-height: 117%;
-//         letter-spacing: 0.96px;
-//         text-align: center;
-
-//         @media screen and (max-width: 530px) {
-//           font-size: 10px;
-//         }
-//         @media screen and (max-width: 375px) {
-//           font-size: 9px;
-//         }
-//       }
-
-//       .questions__line {
-//         padding-top: 5%;
-//         margin-bottom: 10%;
-
-//         width: 70%;
-//         @media screen and (max-width: 530px) {
-//           width: 80%;
-//           padding-left: 15%;
-//         }
-//       }
-//     }
-
-//     &-image {
-//       height: 80%;
-
-//       // .questions__first-img {
-//       //   height: 100%;
-//       // }
-//     }
-//   }
-
-//   &__second {
-//     height: 50%;
-//     width: 100%;
-//     display: flex;
-//     justify-content: flex-start;
-//     align-items: center;
-
-//     &-image {
-//       height: 80%;
-
-//       // .questions__second-img {
-//       //   height: 100%;
-//       // }
-//     }
-
-//     &-content {
-//       width: 50%;
-//       display: flex;
-//       flex-direction: column;
-//       justify-content: center;
-//       align-items: center;
-//       margin-left: -5%;
-//       padding-top: 4%;
-
-//       .questions__text {
-//         color: $color-main;
-//         font-family: $font-inscription;
-//         font-size: 20px;
-//         // font-style: normal;
-//         // font-weight: 400;
-//         // line-height: 117%;
-//         // letter-spacing: 0.96px;
-//         text-align: center;
-//         margin-bottom: -7%;
-
-//         @media screen and (max-width: 530px) {
-//           font-size: 10px;
-//         }
-//         @media screen and (max-width: 375px) {
-//           font-size: 9px;
-//         }
-//       }
-
-//       .questions__line {
-//         padding-top: 10%;
-//         width: 70%;
-//         margin-bottom: 13%;
-//       }
-//     }
-//   }
-// }
-
-// .video-first {
-//   //border: 1px solid rgb(123, 87, 15);
-//   height: 2.88%;
-//   width: 75%;
-//   display: flex;
-//   flex-direction: column;
-//   justify-content: space-around;
-//   align-items: center;
-
-//   &__title {
-//     @extend %title-pink-small;
-//     font-size: 18px;
-//     @media screen and (max-width: 899px) {
-//       font-size: 9px;
-//     }
-//   }
-
-//   &__content {
-//     width: 100%;
-//     height: 80%;
-//   }
-
-//   iframe {
-//     border-radius: 20px;
-//     width: 100%;
-//     height: 100%;
-//   }
-// }
-
-// .image-bears {
-//   //border: 1px solid rgb(129, 204, 79);
-//   height: 2.56%;
-//   width: $main-with;
-//   display: flex;
-//   justify-content: center;
-
-//   .image__img {
-//     //height: 100%;
-//     width: 100%;
-//   }
-// }
-
 .program {
-  //border: 1px solid rgb(207, 83, 207);
   height: 4.5%;
   width: $main-with;
   display: flex;
@@ -671,8 +468,8 @@
   justify-content: space-around;
 
   &__content {
-    width: 100%;
     height: 100%;
+    width: 100%;
     display: flex;
     flex-direction: column;
     justify-content: space-around;
@@ -682,7 +479,6 @@
       @extend %title-text;
       width: 95%;
 
-      //margin-left: -13%;
       @media screen and (max-width: 900px) {
         margin-left: -5%;
         font-size: 19px;
@@ -713,9 +509,11 @@
       @media screen and (max-width: 414px) {
         font-size: 12px;
       }
+
       @media screen and (max-width: 401px) {
         font-size: 11.7px;
       }
+
       @media screen and (max-width: 393px) {
         font-size: 11.3px;
       }
@@ -723,9 +521,11 @@
       @media screen and (max-width: 380px) {
         font-size: 11px;
       }
+
       @media screen and (max-width: 370px) {
         font-size: 10.3px;
       }
+
       @media screen and (max-width: 345px) {
         font-size: 9px;
       }
@@ -752,7 +552,6 @@
 }
 
 .gallery-students {
-  //border: 1px solid rgb(103, 224, 103);
   height: 11%;
   width: 100%;
   display: flex;
@@ -764,12 +563,6 @@
     display: flex;
     flex-direction: column;
     justify-content: space-between;
-
-    #sleeping_girls {}
-
-    #cup {}
-
-    #two_girls {}
   }
 
   &__second_column {
@@ -779,10 +572,7 @@
     flex-direction: column;
     justify-content: space-between;
 
-    #rabbit {}
-
     .gallery-students__text {
-      //border: 1px solid rgb(192, 123, 222);
       height: 50%;
       display: flex;
       flex-direction: column;
@@ -792,8 +582,6 @@
         text-decoration: underline;
       }
 
-      #girl_helmet {}
-
       .gallery-students__txt {
         height: 30%;
         display: flex;
@@ -801,24 +589,18 @@
         justify-content: center;
         @extend %title-pink-small;
         font-size: 80%;
+        text-align: center;
 
         @media screen and (max-width: 530px) {
           font-size: 49%;
         }
 
-        text-align: center;
-
         a {
           color: $color-title;
           font-size: 120%;
-          // @media screen and (max-width: 430px) {
-          //   //font-size: 90%;
-          // }
         }
       }
     }
-
-    #robot {}
   }
 
   &__third_column {
@@ -827,17 +609,10 @@
     display: flex;
     flex-direction: column;
     justify-content: space-between;
-
-    #four_girls {}
-
-    #dog {}
-
-    #girl_silver_costume {}
   }
 }
 
 .methods {
-  //border: 1px solid rgb(141, 41, 163);
   height: 6.3%;
   width: $main-with;
   display: flex;
@@ -923,7 +698,6 @@
 }
 
 .tariff {
-  //border: 1px solid rgb(53, 163, 41);
   height: 24.45%;
   width: $main-with;
   display: flex;
@@ -1056,7 +830,6 @@
         }
 
         &-wrapper {
-          //border: 1px solid rgb(173, 99, 216);
           height: 35%;
           width: 90%;
           display: flex;
@@ -1074,7 +847,6 @@
         }
 
         &-emoji {
-          //border: 1px solid red;
           height: 45%;
           width: 75%;
           display: flex;
@@ -1084,7 +856,6 @@
             width: 17%;
             align-self: flex-end;
             margin-right: 28%;
-            // margin-right: 20%;
             margin-bottom: -5%;
           }
 
@@ -1103,7 +874,6 @@
         justify-content: center;
         align-items: center;
         border-radius: 20px;
-
         background: $color-title;
 
         @media screen and (max-width: 530px) {
@@ -1139,7 +909,6 @@
 }
 
 .lesson {
-  //border: 1px solid rgb(130, 41, 163);
   height: 6.3%;
   width: $main-with;
   display: flex;
@@ -1178,7 +947,6 @@
   }
 
   &__video {
-    //border: 1px solid rgb(22, 11, 27);
     height: 50%;
     width: 90%;
     @extend %quote-text;
@@ -1207,7 +975,6 @@
 }
 
 .footer {
-  //border: 1px solid rgb(161, 82, 13);
   width: $main-with;
   height: 1.7%;
   display: flex;
